@@ -1,0 +1,1433 @@
+* {
+  scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto Medium", sans-serif;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* Header Styles */
+.headermain {
+  padding: 10px 120px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  border-bottom: 0.5px solid rgba(13, 107, 176, 1);
+  z-index: 10;
+}
+
+.headermain .brandLogo a img {
+  background-color: transparent;
+}
+
+.headermain .LinkBox a {
+  text-decoration: none;
+  color: rgba(13, 107, 176, 1);
+  font-size: 20px;
+  margin-right: 40px;
+  padding-bottom: 5px;
+
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease;
+  font-family: "Robotomdmedium";
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+.headermain .LinkBox a:hover {
+  border-bottom-color: #174c93;
+}
+
+.headermain .LinkBox .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.headermain .LinkBox .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 240px;
+  padding: 18px 20px 22px 20px;
+  margin-top: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.headermain .LinkBox .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.headermain .LinkBox a:last-child {
+  margin-right: 0px;
+}
+.headermain .LinkBox .dropdown-content a {
+  display: block;
+  padding-top: 10px;
+  font-size: 15px;
+  color: #333;
+  font-family: "futuraptMedium";
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease;
+  width: 100%;
+}
+
+.headermain .LinkBox .dropdown-content a:hover {
+  color: #174c93;
+  border-bottom-color: #174c93;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100%;
+  background-color: #174c93;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.drawerToggle {
+  display: none;
+}
+.drawer.open {
+  right: 0;
+}
+
+.drawerContent a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: "futuraptMedium";
+  margin: 0 30px;
+  border-bottom: 1px solid rgba(215, 116, 116, 0.15);
+  color: #fff;
+  overflow-y: auto;
+}
+.Rahil {
+  width: 80%;
+  overflow-y: auto; /* Enable vertical scrolling */
+  z-index: 9999999; /* Ensure the drawer is on top of other content */
+  position: fixed; /* Position the drawer relative to the viewport */ /* Position the drawer at the left edge of the viewport */
+  height: 80%; /* Make the drawer take up the full height of the viewport */
+  /* Set the width of the drawer */
+  /* Set the background color of the drawer */
+  /* Add some padding to the drawer */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crossBtnRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background-color: #fff;
+}
+.crossbtn {
+  cursor: pointer;
+}
+
+.searchInputContainer {
+  position: absolute;
+  top: 110%;
+  height: 40px;
+  width: 96%;
+  background-color: #fff;
+  display: flex;
+  /* line-height: 40px; */
+}
+
+.inputd {
+  /* width: 100%; */
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  width: calc(100% - 30px);
+}
+
+.searchIconContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #555;
+}
+
+.searchbtn {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+}
+.searchbtn:hover {
+  transform: scale(1.2);
+}
+.searchiconPopup {
+  transition: transform 0.3s ease;
+}
+.searchiconPopup:hover {
+  transform: scale(1.2);
+}
+
+/* drowdown */
+.toggle-sub-menu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background: hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.RiArrowDropDownLineSx {
+  width: 25px;
+  height: 25px;
+}
+.RiArrowDropUpLineSx {
+  width: 25px;
+  height: 25px;
+}
+.innerDropdownContent a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 0 solid;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+.innerDropdownContent a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/* Responsive Header Styles */
+
+@media (max-width: 991px) {
+  .headermain {
+    padding: 10px 60px;
+  }
+  .headermain .LinkBox a {
+    font-size: 18px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .headermain {
+    padding: 10px;
+  }
+  .headermain .LinkBox a {
+    display: none;
+  }
+  .threeBars {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .drawerToggle {
+    display: block;
+  }
+  /* .searchInputContainer {
+    display: block;
+  }
+
+  .inputd {
+    display: block;
+  } */
+}
+@media screen and (min-width: 768px) {
+  .drawer {
+    display: none;
+  }
+  .searchInputContainer {
+    display: none;
+  }
+
+  .inputd {
+    display: none;
+  }
+}
+
+/* Footer styles */
+.footer {
+  width: 100%;
+}
+
+.footerBg {
+  background: url("../public/images/footerbg.svg") no-repeat scroll;
+  background-size: cover;
+  /* background-position: center; */
+  padding-top: 280px;
+  padding-bottom: 120px;
+}
+.box,
+.servicesBox {
+  flex: 1;
+  /* text-align: center; */
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 0 90px; /* Add left and right padding */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+.servicesBox p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+
+.servicesBox p:last-child {
+  overflow: visible;
+  white-space: initial;
+  text-overflow: initial;
+}
+
+.innerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.addressBox {
+  font-size: 22px;
+  font-weight: 800;
+
+  /* Example background color */
+}
+
+.servicesBox {
+  flex: 1;
+  /* text-align: center; */
+}
+
+.serTxt {
+  font-size: 20px;
+
+  font-family: "futuraptbold";
+}
+
+.customLink {
+  color: #fff;
+  font-size: 20px;
+
+  text-decoration-line: none;
+  font-family: "futuraptMedium";
+}
+.ch2 {
+  color: #fff;
+  font-size: 20px;
+
+  text-decoration-line: none;
+  font-family: "futuraptMedium";
+}
+
+@media (max-width: 991px) {
+  .servicesBox {
+    margin-bottom: 20px;
+  }
+  .footerBg {
+    background-position: center;
+  }
+}
+
+/* Body Styles*/
+.landingBox {
+  background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
+  background-size: cover;
+  background-position: bottom right;
+  width: 100vw;
+  height: 130vh;
+  margin: 0;
+  padding: 0;
+}
+
+#Home .landingBox .rightSlider {
+  background: url("../public/images/ladnigSlide.svg") no-repeat scroll;
+  height: 100vh;
+  background-position: right;
+  position: relative;
+}
+
+.landingBox .textBox {
+  position: absolute;
+  margin: 130px 130px;
+}
+
+.landingBox .textBox h1 {
+  color: #fff;
+  font-size: 55px;
+  margin-bottom: 20px;
+  font-family: "futuramdmedium";
+}
+
+.landingBox .textBox p {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "Roboto-Light";
+}
+
+.landingBox .butterfly {
+  position: absolute;
+  top: 170px;
+  right: 100px;
+}
+
+.landingBox .butStone1 {
+  position: absolute;
+  top: 480px;
+  right: 480px;
+  transform: rotate(15deg);
+}
+
+.landingBox .butStone2 {
+  position: absolute;
+  top: 660px;
+  right: 800px;
+}
+
+.landingBox .butStone3 {
+  position: absolute;
+  top: 690px;
+  left: 220px;
+}
+
+/* Responsive  Styles */
+
+@media (max-width: 991px) {
+  .landingBox .textBox {
+    position: absolute;
+    margin: 50px 70px;
+  }
+  .landingBox .textBox h1 {
+    font-size: 38px;
+    font-family: "futuramdmedium";
+  }
+
+  .landingBox .textBox p {
+    font-size: 18px;
+    font-family: "Roboto-Light";
+  }
+}
+@media (max-width: 768px) {
+  .landingBox .textBox {
+    position: absolute;
+    margin: 50px 20px;
+  }
+  .landingBox {
+    background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
+    background-size: cover;
+    background-position: bottom right;
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media (max-width: 480px) {
+  .landingBox .textBox {
+    position: absolute;
+    margin: 50px 20px;
+  }
+  .landingBox {
+    background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
+    background-size: contain;
+    /* background-position: bottom right; */
+    width: 100vw;
+    height: 90vh;
+    /* background-color: rgb(2, 52, 103); */
+    background-color: rgb(2, 69, 137);
+  }
+}
+
+/* Our services styles */
+.mainLineImg {
+  background: url("../public/images/bigBoxblue.svg") no-repeat center scroll;
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-position: top;
+}
+
+.mainLineImg .AboutUs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  &:last-child {
+    margin-bottom: 60px;
+  }
+}
+.cont-sx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainLineImg .AboutUsBox {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.mainLineImg .AboutUsBox .headTxt {
+  font-size: 31px;
+  line-height: 35px;
+  color: #0f7eed;
+
+  font-family: "Robotomdmedium";
+}
+
+.mainLineImg .AboutUsBox .detailTxt {
+  font-size: 37px;
+  line-height: 48px;
+  color: #013470;
+  margin-bottom: 20px;
+  font-family: "futuraptbold";
+}
+
+.mainLineImg .AboutUsBox .para {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #4e5764;
+  font-family: "Roboto-Light";
+}
+
+.mainLineImg .AboutUsBox .ContactBtn {
+  border: none;
+  height: 42px;
+  width: 180px;
+  color: #fff;
+  background-color: rgba(1, 52, 112, 1);
+  font-family: "Roboto Flex", sans-serif;
+}
+
+/* Responsive Our services Styles */
+
+@media (max-width: 991px) {
+  .mainLineImg .AboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0 70px 0 70px;
+    margin-bottom: 80px;
+    &:last-child {
+      margin-bottom: 60px;
+    }
+  }
+  .mainLineImg .AboutUsBox {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .mainLineImg .AboutUs {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+  .mainLineImg .AboutUsBox {
+    margin-top: 30px;
+  }
+  .mainLineImg .AboutUsBox .detailTxt {
+    font-size: 32px;
+    line-height: 35px;
+    color: rgba(1, 52, 112, 1);
+    font-family: "futuraptbold";
+    word-spacing: 5px;
+  }
+}
+
+/* Industries styles */
+.detailTxt2 {
+  font-size: 37px;
+  line-height: 48px;
+  color: #013470;
+
+  margin-bottom: 60px;
+  font-family: "futuraptbold";
+}
+
+.cardImgRce {
+  margin-bottom: 20px;
+}
+
+.carHeadTxt {
+  color: #013470;
+  font-size: 27px;
+
+  margin-bottom: 20px;
+  font-family: "futuraptbold";
+}
+
+.parain {
+  color: #4e5764;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Roboto-Light";
+}
+
+#Industries .cardInCase {
+  /* width: 380px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  transition: all 0.5s ease;
+  margin-bottom: 80px;
+  /* margin-right: 30px; */
+}
+#Industries .cardInCase:last-child {
+  margin-right: 0px;
+}
+.cardInCase:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all 0.5s ease;
+}
+
+.cardInCase .cardhead {
+  background-color: rgba(236, 239, 244, 1);
+  padding-top: 49px;
+
+  padding-bottom: 49px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+.cardInCase .cardheadpng {
+  background-color: rgba(236, 239, 244, 1);
+  padding-top: 54px;
+
+  padding-bottom: 54px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.cardhead .cardImgCase {
+  width: 100%;
+  object-fit: cover;
+}
+.cardheadtech {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardInCase .cardbody {
+  padding: 20px;
+  background-color: #fff;
+  border: 0.5px solid rgb(231, 222, 222);
+  height: 250px;
+}
+
+.cardInCase .cardbody .caseheadTxt {
+  color: #303030;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: "Roboto-Bold";
+}
+
+.cardInCase .cardbody .casePara {
+  color: #4e5764;
+  font-size: 18px;
+  text-align: start;
+  margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.cardInCase .cardbody .caseStudy {
+  color: #0f7eed;
+  font-size: 18px;
+  text-align: start;
+}
+/* Responsive Industries Styles */
+
+@media (max-width: 991px) {
+  #Industries .cardInCase {
+    margin-bottom: 60px;
+  }
+  .carHeadTxt {
+    font-family: "futuraptbold";
+  }
+
+  .cardInCase .cardbody {
+    height: 365px;
+  }
+}
+@media (max-width: 768px) {
+  #Industries .cardInCase {
+    margin-bottom: 40px;
+  }
+  .detailTxt2 {
+    font-size: 32px;
+    line-height: 35px;
+    font-family: "futuraptbold";
+  }
+}
+@media (max-width: 600px) {
+  .cardInCase .cardbody {
+    height: 270px;
+  }
+}
+
+/* Increamental Improvments */
+.xaxisSlide {
+  background: url("../public/images/stats\ section-27.png") no-repeat scroll;
+  height: 100vh;
+  width: 100vw;
+  background-position: top;
+  background-size: contain;
+  /* padding: 150px; */
+}
+
+.xaxisSlide .contentBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.xaxisSlide .incremanetalHeadTxt {
+  font-size: 37px;
+  color: #013470;
+
+  margin: 100px 0px 50px 0px;
+  font-family: "futuraptbold";
+}
+
+.xaxisSlide .borderROundedRec {
+  height: 170px;
+  width: 999px;
+  background-color: rgba(1, 52, 112, 1);
+  border-radius: 210px;
+  box-shadow: 6px 8px 0px 0px #fe6c17;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.xaxisSlide .borderROundedRec .innerBox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-right: 30px;
+}
+
+.xaxisSlide .borderROundedRec .innerBox .contentCard {
+  margin-left: 10px;
+}
+
+.xaxisSlide .borderROundedRec .innerBox .contentCard .num {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Roboto-Bold";
+}
+
+.xaxisSlide .borderROundedRec .innerBox .contentCard .text {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto-Light";
+}
+
+@media (max-width: 991px) {
+  .xaxisSlide .borderROundedRec {
+    height: 150px;
+    width: 777px;
+    padding: 20px 40px;
+  }
+  .xaxisSlide .borderROundedRec .innerBox {
+    margin-right: 20px;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox .contentCard {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .xaxisSlide {
+    margin-bottom: 100px;
+  }
+
+  .xaxisSlide .borderROundedRec {
+    height: auto;
+    width: 80%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox:last-child {
+    margin-bottom: 0;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox .contentCard {
+    margin-left: 20px;
+    width: 100px;
+    text-align: start;
+  }
+  .xaxisSlide .incremanetalHeadTxt {
+    font-family: "futuraptbold";
+    margin: 50px 0px 50px 0px;
+  }
+}
+
+.bookBox {
+  /* height: calc(100vh - 100px); */
+  /* margin-bottom: 200px; */
+}
+.book {
+}
+.reco-img-sx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bookBox .reconBox {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bookBox .reconBox .headingReconTxt {
+  font-size: 31px;
+  line-height: 35px;
+  color: #0f7eed;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+}
+
+.bookBox .reconBox .recogPara {
+  font-size: 37px;
+  line-height: 1.1em;
+  color: #013470;
+
+  margin-bottom: 30px;
+  font-family: "futuraptbold";
+}
+
+.bookBox .reconBox .liteTxt {
+  font-size: 21px;
+  color: #4e5764;
+  font-family: "Roboto-Light";
+}
+
+.bookBox .TecBox h1 {
+  margin-bottom: 20px;
+  color: #0f7eed;
+
+  font-size: 37px;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
+}
+
+.bookBox .TecBox h1 span {
+  color: #013470;
+}
+
+.TecBox .belowBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TecBox .belowBox .textBox {
+  margin-right: 40px;
+}
+
+.TecBox .belowBox .textBox h1 {
+  color: #4e5764;
+  font-size: 45px;
+
+  font-family: "futuraptLight";
+  margin-bottom: 10px;
+}
+
+.TecBox .belowBox .textBox h2 {
+  color: #4e5764;
+  font-size: 18px;
+  font-family: "futuraptLight";
+}
+
+@media (max-width: 991px) {
+  .book {
+    height: 500px;
+    width: 400px;
+  }
+  .bookBox .reconBox .headingReconTxt {
+    font-size: 30px;
+  }
+  .bookBox .reconBox .recogPara {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: "futuraptbold";
+  }
+  .bookBox .TecBox h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .TecBox .belowBox .textBox {
+    margin-right: 30px;
+  }
+
+  .TecBox .belowBox .textBox h1 {
+    font-size: 30px;
+
+    font-family: "futuraptLight";
+  }
+}
+
+@media (max-width: 768px) {
+  .book {
+    height: 450px;
+    width: 350px;
+  }
+  .xaxisSlide .borderROundedRec {
+    height: auto;
+    width: 80%;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox:last-child {
+    margin-bottom: 0;
+  }
+
+  .xaxisSlide .borderROundedRec .innerBox .contentCard {
+    margin-left: 20px;
+    width: 100px;
+    text-align: start;
+  }
+  .xaxisSlide .incremanetalHeadTxt {
+    font-family: "futuraptbold";
+    margin: 50px 0px 50px 0px;
+  }
+  .bookBox .reconBox {
+    align-items: center;
+  }
+  .reco-img-sx {
+    margin-top: 30px;
+  }
+  .bookBox .reconBox .headingReconTxt {
+    text-align: center;
+  }
+  .bookBox .reconBox .recogPara {
+    text-align: center;
+    font-family: "futuraptbold";
+  }
+  .bookBox .reconBox .liteTxt {
+    text-align: center;
+  }
+  .bookBox .TecBox h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .TecBox .belowBox .textBox {
+    margin-right: 20px;
+  }
+
+  .TecBox .belowBox .textBox h1 {
+    font-size: 24px;
+
+    font-family: "futuraptLight";
+  }
+}
+/* Contact */
+.contactbg {
+  background: url("../public/images/contactus.png") no-repeat;
+  height: 50vw;
+  width: 100vw;
+  background-size: contain;
+  background-position: top;
+}
+.contacttext {
+  color: #fff;
+  font-size: 55px;
+  font-family: "futuraptMedium";
+}
+.contactbox {
+  margin-left: 150px;
+  padding-top: 100px;
+}
+.contacttextc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacttextwidth {
+  width: 20%;
+  margin: 20px;
+}
+.contacttextwidthdes {
+  width: 42%;
+  margin: 20px;
+}
+.contactheadfirst {
+  font-size: 32px;
+  color: #174c93;
+  font-family: "futuraptbold";
+  font-weight: 600;
+}
+.contactheadsub {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+
+/* Styling for input fields */
+.contacttextwidth input,
+.contacttextwidth select,
+.contacttextwidthdes input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #3f78bd; /* Blue bottom border */
+  background-color: transparent;
+  color: grey; /* Change text color */
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px; /* Adjust spacing */
+}
+
+/* Styling for select dropdown */
+.contacttextwidth select {
+  appearance: none; /* Remove default arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 25px; /* Adjust spacing for the arrow */
+  border: none;
+  border-bottom: 2px solid #3f78bd;
+  margin: 0; /* Remove margin */
+  outline: none;
+}
+/* Change the color of the SVG */
+textarea.input-blue-bottom-border {
+  border: none;
+  border-bottom: 2px solid #3f78bd;
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-caret-right-fill' viewBox='0 0 16 16'%3E%3Cpath d='m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z'/%3E%3C/svg%3E"); Replace with the path to your SVG */
+  /* background-repeat: no-repeat; */
+  /* background-position: right bottom; Position the image at the bottom right */
+  /* background-size: 16px 16px; Adjust size of the image */
+  padding-right: 20px; /*  Adjust padding to accommodate the image */
+  appearance: none; /*   Hide default appearance */
+  outline: none; /*   Remove default outline */
+  resize: none; /*   Disable resizing */
+  filter: hue-rotate(180deg); /*   Change the color of the SVG */
+}
+
+.Contactsendmsg {
+  border: none;
+  height: 35px;
+  width: 140px;
+  color: #fff;
+  font-size: 12px;
+  background-color: rgba(1, 52, 112, 1);
+  font-family: "Roboto Flex", sans-serif;
+}
+.input-blue-bottom-borderone {
+  border: none;
+  border-bottom: 2px solid #3f78bd;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.input-blue-bottom-border:focus {
+}
+
+textarea.input-blue-bottom-border {
+  min-height: 20px;
+}
+@media (max-width: 820px) {
+  /* Contact */
+  .contactbg {
+    background: url("../public/images/contactus.png") no-repeat;
+    height: 50vw;
+    width: 100vw;
+    background-size: contain;
+    background-position: top;
+  }
+  .contacttext {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+  }
+  .contactbox {
+    margin-left: 50px;
+    padding-top: 100px;
+  }
+  .contacttextc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacttextwidth {
+    width: 50%;
+    margin: 20px;
+  }
+  .contacttextwidthdes {
+    width: 100%;
+    margin: 20px;
+  }
+  .contactheadfirst {
+    font-size: 28px;
+    color: #174c93;
+    font-family: "futuraptbold";
+    font-weight: 600;
+  }
+  .contactheadsub {
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  /* Styling for input fields */
+  .contacttextwidth input,
+  .contacttextwidth select,
+  .contacttextwidthdes input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #3f78bd; /* Blue bottom border */
+    background-color: transparent;
+    color: #000; /* Change text color */
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px; /* Adjust spacing */
+  }
+
+  /* Styling for select dropdown */
+  .contacttextwidth select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 10 10'%3E%3Cpath d='M3.5 5l3 3 3-3z' fill='grey'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 25px; /* Adjust spacing for the arrow */
+  }
+  .Contactsendmsg {
+    border: none;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(1, 52, 112, 1);
+    font-family: "Roboto Flex", sans-serif;
+  }
+  .input-blue-bottom-border {
+    border: none;
+
+    border-bottom: 2px solid #174c93;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .input-blue-bottom-border:focus {
+    border-bottom: 2px solid #174c93; /* Change color on focus */
+  }
+
+  textarea.input-blue-bottom-border {
+    min-height: 20px;
+  }
+}
+
+@media (max-width: 725px) {
+  /* Contact */
+  .contactbg {
+    background: url("../public/images/contactus.png") no-repeat;
+    height: 50vw;
+    width: 100vw;
+    background-size: contain;
+    background-position: top;
+  }
+  .contacttext {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+  }
+  .contactbox {
+    margin-left: 50px;
+    padding-top: 70px;
+  }
+  .contacttextc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacttextwidth {
+    width: 50%;
+    margin: 20px;
+  }
+  .contacttextwidthdes {
+    width: 100%;
+    margin: 20px;
+  }
+  .contactheadfirst {
+    font-size: 20px;
+    color: #174c93;
+    font-family: "futuraptbold";
+    font-weight: 600;
+  }
+  .contactheadsub {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  /* Styling for input fields */
+  .contacttextwidth input,
+  .contacttextwidth select,
+  .contacttextwidthdes input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #3f78bd; /* Blue bottom border */
+    background-color: transparent;
+    color: #000; /* Change text color */
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px; /* Adjust spacing */
+  }
+
+  /* Styling for select dropdown */
+  .contacttextwidth select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 10 10'%3E%3Cpath d='M3.5 5l3 3 3-3z' fill='grey'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 25px; /* Adjust spacing for the arrow */
+  }
+  .Contactsendmsg {
+    border: none;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(1, 52, 112, 1);
+    font-family: "Roboto Flex", sans-serif;
+  }
+  .input-blue-bottom-border {
+    border: none;
+
+    border-bottom: 2px solid #174c93;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .input-blue-bottom-border:focus {
+    border-bottom: 2px solid #174c93; /* Change color on focus */
+  }
+
+  textarea.input-blue-bottom-border {
+    min-height: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  /* Contact */
+  .contactbg {
+    background: url("../public/images/contactus.png") no-repeat;
+    height: 50vw;
+    width: 100vw;
+    background-size: contain;
+    background-position: top;
+  }
+  .contacttext {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 500;
+  }
+  .contactbox {
+    margin-left: 20px;
+    padding-top: 60px;
+  }
+  .contacttextc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacttextwidth {
+    width: 50%;
+    margin: 20px;
+  }
+  .contacttextwidthdes {
+    width: 100%;
+    margin: 20px;
+  }
+  .contactheadfirst {
+    width: 80%;
+    font-size: 15px;
+    color: #174c93;
+    font-family: "futuraptbold";
+    font-weight: 600;
+    text-align: center;
+  }
+  .contactheadsub {
+    font-size: 8px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  /* Styling for input fields */
+  .contacttextwidth input,
+  .contacttextwidth select,
+  .contacttextwidthdes input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #3f78bd; /* Blue bottom border */
+    background-color: transparent;
+    color: #000; /* Change text color */
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px; /* Adjust spacing */
+  }
+
+  /* Styling for select dropdown */
+  .contacttextwidth select {
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 10 10'%3E%3Cpath d='M3.5 5l3 3 3-3z' fill='grey'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 25px; /* Adjust spacing for the arrow */
+  }
+  .Contactsendmsg {
+    border: none;
+    height: 35px;
+    width: 140px;
+    color: #fff;
+    font-size: 12px;
+    background-color: rgba(1, 52, 112, 1);
+    font-family: "Roboto Flex", sans-serif;
+  }
+  .input-blue-bottom-border {
+    border: none;
+
+    border-bottom: 2px solid #174c93;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .input-blue-bottom-border:focus {
+    border-bottom: 2px solid #174c93;
+  }
+
+  textarea.input-blue-bottom-border {
+    min-height: 20px;
+  }
+}
+
+.mainLineImgcont {
+  background: url("../public/images/bigBoxblue.svg") no-repeat center scroll;
+  height: auto;
+  width: 100vw;
+  background-size: cover;
+  background-position: top;
+}
+@font-face {
+  font-family: "futuraptlight";
+  src: url(../public/fonts/FuturaCyrillicExtraBold.ttf);
+}
+.Test {
+  font-family: "futuramdmedium";
+}
+.Tes2t {
+  font-family: "futuramdmedium";
+}
+@font-face {
+  font-family: "futuramdmedium";
+  src: url(../public/fonts/futuram.ttf);
+}
+
+@font-face {
+  font-family: "futuraptbold";
+  src: url(../public/fonts/FuturaCyrillicBold.ttf);
+}
+@font-face {
+  font-family: "futuraptMedium";
+  src: url(../public/fonts/FuturaCyrillicMedium.ttf);
+}
+@font-face {
+  font-family: "futuraptLight";
+  src: url(../public/fonts/FuturaCyrillicLight.ttf);
+}
+@font-face {
+  font-family: "futurabold";
+  src: url(../public/fonts/futurab.ttf);
+}
+@font-face {
+  font-family: "Robotomdmedium";
+  src: url(../public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../public/fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../public/fonts/Roboto-Bold.ttf);
+}
