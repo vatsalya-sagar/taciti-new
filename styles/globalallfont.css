@@ -1,0 +1,179 @@
+/* import all font family here */
+@font-face {
+  font-family: "futuramdmedium";
+  src: url(../public/fonts/futuram.ttf);
+}
+
+@font-face {
+  font-family: "futuraptbold";
+  src: url(../public/fonts/FuturaCyrillicBold.ttf);
+}
+@font-face {
+  font-family: "futuraptMedium";
+  src: url(../public/fonts/FuturaCyrillicMedium.ttf);
+}
+@font-face {
+  font-family: "futuraptLight";
+  src: url(../public/fonts/FuturaCyrillicLight.ttf);
+}
+@font-face {
+  font-family: "futuramdbold";
+  src: url(../public/fonts/futurab.ttf);
+}
+@font-face {
+  font-family: "Robotomdmedium";
+  src: url(../public/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(../public/fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../public/fonts/Roboto-Bold.ttf);
+}
+h1 {
+  font-family: "futuramdmedium" !important;
+  font-size: 55px !important;
+  color: white !important;
+}
+
+h2 {
+  font-family: "futuraptbold" !important;
+  font-size: 37px !important;
+  color: #013470 !important;
+}
+
+h3 {
+  font-family: "futuraptbold" !important;
+  font-size: 22px !important;
+  color: #013470 !important;
+  /* color: #0f7eed !important;*/
+}
+
+h5 {
+  color: #4e5764 !important;
+  font-family: "Robotomdmedium" !important;
+  font-size: 15px !important;
+}
+
+.basicid {
+  font-family: "futuraptbold" !important;
+  font-size: 37px !important;
+  color: #013470 !important;
+}
+
+.descripitioncustom {
+  color: white !important;
+  font-family: "Roboto-Light" !important;
+  font-size: 18px !important;
+}
+p {
+  color: #4e5764 !important;
+  font-family: "Roboto-Light" !important;
+  font-size: 18px !important;
+}
+
+.headeing-main {
+}
+
+.sub-heading {
+}
+
+.optimizing h1 {
+  font-family: "futuramdbold" !important;
+  font-size: 40px !important;
+  color: white !important;
+}
+.headingtaciti h2 {
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.list {
+  color: "#013470" !important;
+  font-family: "futuraptMedium" !important;
+  font-size: 18px !important;
+}
+
+.subtitle h2 {
+  font-family: "futuraptMedium" !important;
+  font-size: 27px !important;
+  color: "#013470" !important;
+  /* color: #0f7eed !important;*/
+}
+.manufacture {
+  font-family: "futuraptLight" !important;
+  font-size: 27px !important;
+  color: #013470 !important;
+  /* color: #0f7eed !important;*/
+}
+
+.manufacturetitle {
+  font-family: "futuraptLight" !important;
+  font-size: 22px !important;
+  color: #013470 !important;
+  /* color: #0f7eed !important;*/
+}
+.humancapfont h2 {
+  font-family: "futuraptbold" !important;
+  font-size: 27px !important;
+  color: #013470 !important;
+  /* color: #0f7eed !important;*/
+}
+
+.Alltabs p {
+  color: #4e5764 !important;
+  font-family: "Robotomdmedium" !important;
+  font-size: 18px !important;
+}
+.Alltabselecteds p {
+  color: #013470 !important;
+  font-family: "Robotomdmedium" !important;
+  font-size: 18px !important;
+}
+
+.Alltabsour {
+  color: #4e5764 !important;
+  font-family: "Robotomdmedium" !important;
+  font-size: 17px !important;
+}
+.Alltabselectedsour {
+  color: #013470 !important;
+  font-family: "Robotomdmedium" !important;
+  font-size: 18px !important;
+}
+.Alltabselectedsoursub h2 {
+  font-family: "futuramdmedium" !important;
+  font-size: 27px !important;
+  color: #013470 !important;
+}
+
+.advisorysubtitle {
+  font-family: "futuraptbold" !important;
+  font-size: 33px !important;
+  color: #013470 !important;
+  /* color: #0f7eed !important;*/
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  .Alltabs p {
+    font-size: 15px !important;
+  }
+  .Alltabselecteds p {
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 28px !important;
+  }
+}
+@media (min-width: 280px) and (max-width: 280px) {
+  h1 {
+    font-size: 20px !important;
+  }
+}

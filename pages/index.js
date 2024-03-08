@@ -13,17 +13,17 @@ export default function Home() {
       <div id="Home">
         <div className="landingBox">
           <div className="textBox">
-            <h1>
+            <h1 className="headhero">
               Empowering <br /> Digital <br /> Transformation
             </h1>
-            <p>
+            <div className="descripitioncustom">
               Our expertise lies in providing end to end digital <br />
               transformation services for businesses. Our unbiased <br />
               advisory approach helps our clients achieve growth <br />
               and success in their industries. Our services include <br />
               Strategy & Advisory , Process Reengineering & Optimization <br />
               and Technology Implementation.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -63,11 +63,11 @@ export default function Home() {
                 <h2 className="detailTxt2">
                   End to End Digital Transformation Service
                 </h2>
-                <div className="container cont-sx">
+                <div className="container cont-sx mb-3">
                   <div className="row">
                     <div className="col-md-4">
-                      <Image
-                        src="./images/orderCash.svg"
+                      <img
+                        src="/images/orderCash.png"
                         className="cardImgRce"
                         height="110"
                         width="110"
@@ -84,8 +84,8 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <Image
-                        src="./images/businessImg.svg"
+                      <img
+                        src="/images/businessImg.png"
                         className="cardImgRce"
                         height="110"
                         width="110"
@@ -102,7 +102,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="col-md-4">
-                      <Image
+                      <img
                         src="/images/sap.png"
                         className="cardImgRce"
                         height="110"
@@ -141,8 +141,8 @@ export default function Home() {
                     <div className="col-md-4">
                       <div className="cardInCase ">
                         <div className="cardhead ">
-                          <Image
-                            src="../images/stratergy.svg"
+                          <img
+                            src="/images/stratergy.svg"
                             height="210"
                             width="100"
                             className="cardImgCase"
@@ -183,8 +183,8 @@ export default function Home() {
                     <div className="col-md-4">
                       <div className="cardInCase">
                         <div className="cardhead">
-                          <Image
-                            src="../images/erp.svg"
+                          <img
+                            src="/images/erp.svg"
                             height="210"
                             width="100"
                             className="cardImgCase"
@@ -226,7 +226,7 @@ export default function Home() {
                     <div className="col-md-4">
                       <div className="cardInCase">
                         <div className="cardheadpng ">
-                          <Image
+                          <img
                             src="/images/thumbnail7.png"
                             height="200"
                             width="500"
@@ -286,20 +286,15 @@ export default function Home() {
               </h1>
               <div className="borderROundedRec">
                 <div className="innerBox">
-                  <Image
-                    src="../images/client.svg"
-                    height="70"
-                    width="70"
-                    alt=""
-                  />
+                  <img src="/images/client.png" height="70" width="70" alt="" />
                   <div className="contentCard">
                     <h1 className="num">11</h1>
                     <h1 className="text">Clients</h1>
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image
-                    src="../images/completed.svg"
+                  <img
+                    src="/images/completed.png"
                     height="70"
                     width="70"
                     alt=""
@@ -310,8 +305,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image
-                    src="../images/ongoing.svg"
+                  <img
+                    src="/images/ongoing.png"
                     height="70"
                     width="70"
                     alt=""
@@ -322,12 +317,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image
-                    src="../images/expert.svg"
-                    height="70"
-                    width="70"
-                    alt=""
-                  />
+                  <img src="/images/expert.png" height="70" width="70" alt="" />
                   <div className="contentCard">
                     <h1 className="num">160</h1>
                     <h1 className="text">Experts at work</h1>
@@ -343,8 +333,8 @@ export default function Home() {
             <div className="row">
               <div className="col-md-6">
                 <div className="reco-img-sx">
-                  <Image
-                    src="../images/book.svg"
+                  <img
+                    src="/images/book.svg"
                     height="600"
                     width="500"
                     alt=""
@@ -367,18 +357,18 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-12 mt-3 text-center">
+              <div className="col-md-12 text-center techPartrSx">
                 <div className="TecBox">
-                  <h1>
+                  <h1 className="kkk">
                     <span>Our</span> Technology Partner
                   </h1>
                   <div className="belowBox">
                     <div className="textBox">
-                      <h1>SAP</h1>
+                      <h1 className="sap">SAP</h1>
                       <h2>Silver partner</h2>
                     </div>
                     <div className="textBox">
-                      <h1>Corner Stone</h1>
+                      <h1 className="sap">Corner Stone</h1>
                       <h2>Teaming Agrement</h2>
                     </div>
                   </div>

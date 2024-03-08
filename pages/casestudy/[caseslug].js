@@ -15,11 +15,8 @@ export default function AllPages({ AllsinglePageList }) {
             href="https://taciti.coinage.host/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0"
             media="all"
           />
-          <link
-            rel="stylesheet"
-            href="https://taciti.coinage.host/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0"
-            media="all"
-          />
+          
+
           <link
             rel="stylesheet"
             href={`https://taciti.coinage.host/wp-content/uploads/elementor/css/post-${AllsinglePageList?.data?.casestudy?.casestudyId}.css`}

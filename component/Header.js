@@ -82,7 +82,7 @@ export default function Header() {
           </div>
           <div className="pb-4 dropdown pt-4  ">
             <div className="dropdown">
-              <Link href="/manufacturing-industries/">
+              <Link href="/industries/">
                 Industries <RiArrowDropDownLine className="arrowiconsx" />
               </Link>
               <div class="dropdown-content">
@@ -141,11 +141,15 @@ export default function Header() {
             </div>
 
             <div className="Rahil">
-              <Link href="/about-us/">About Us</Link>
+              <Link href="/about-us/" className="drawerLink">
+                About Us
+              </Link>
 
               <div className="dropdown" onClick={toggleServices}>
                 {/* Our Services dropdown */}
-                <Link href="/our-services/">Our Services</Link>
+                <Link href="/our-services/" className="drawerLink">
+                  Our Services
+                </Link>
                 <span className="toggle-sub-menu">
                   {openDropdown === "services" ? (
                     <RiArrowDropUpLine className="RiArrowDropUpLineSx" />
@@ -171,7 +175,9 @@ export default function Header() {
 
               <div className="dropdown" onClick={toggleServicesInd}>
                 {/* Industries dropdown */}
-                <Link href="/manufacturing-industries/">Industries</Link>
+                <Link href="/industries/" className="drawerLink">
+                  Industries
+                </Link>
                 <span className="toggle-sub-menu">
                   {openDropdown === "servicesInd" ? (
                     <RiArrowDropUpLine className="RiArrowDropUpLineSx" />
@@ -195,8 +201,12 @@ export default function Header() {
                 )}
               </div>
 
-              <Link href="/case-studies/">Case Studies</Link>
-              <Link href="/contact-us/">Contact Us</Link>
+              <Link href="/case-studies/" className="drawerLink">
+                Case Studies
+              </Link>
+              <Link href="/contact-us/" className="drawerLink">
+                Contact Us
+              </Link>
             </div>
           </div>
         </div>

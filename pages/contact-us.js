@@ -1,19 +1,45 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 
 export default function Contact() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const options = ["Option 1", "Option 2", "Option 3"];
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    setSelectedOption(option);
+    setIsOpen(false);
+  };
+
+  const [isOpend, setIsOpend] = useState(false);
+  const [selectedOptiond, setSelectedOptiond] = useState(null);
+  const optionsd = ["Option 1", "Option 2", "Option 3"];
+
+  const toggleDropdownd = () => {
+    setIsOpend(!isOpend);
+  };
+
+  const handleOptionClickd = (optiond) => {
+    setSelectedOptiond(optiond);
+    setIsOpend(false);
+  };
   return (
     <div id="contacthffkui">
       <div className="contactbg">
         <div className="contactbox">
-          <h3 className="contacttext">Contact Us</h3>
+          <h1 className="contacttext">Contact Us</h1>
         </div>
       </div>
 
       <div className="mainLineImgcont">
         <div className="contacttextc">
-          <h1 className="contactheadfirst">
+          <div className="contactheadfirst">
             To make requests for further information, contact us
-          </h1>
+          </div>
         </div>
         <div className="contacttextc">
           <text className="contactheadsub">
@@ -49,7 +75,6 @@ export default function Contact() {
             <input
               className="contactheadsec col-12 input-blue-bottom-border"
               placeholder="Your Number*"
-              type="number"
             />
           </div>
         </div>
@@ -70,27 +95,49 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="contacttextc  ">
+        <div className="contacttextc mt-4  ">
           <div className="contacttextwidth ">
-            <select className="contactheadsec col-12">
-              <option value="" disabled selected hidden>
-                Select Industry
-              </option>
-              <option value="industry1">Industry 1</option>
-              <option value="industry2">Industry 2</option>
-              <option value="industry3">Industry 3</option>
-            </select>
+            <div className="custom-dropdown">
+              <div className="dropdown-header" onClick={toggleDropdownd}>
+                {selectedOptiond || " Select Services"}
+                {isOpend ? (
+                  <MdArrowDropUp className="mdarrow" />
+                ) : (
+                  <MdArrowDropDown className="mdarrow" />
+                )}
+              </div>
+              {isOpend && (
+                <ul className="dropdown-options">
+                  {optionsd.map((option, index) => (
+                    <li key={index} onClick={() => handleOptionClickd(option)}>
+                      {optionsd}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
 
           <div className="contacttextwidth  ">
-            <select className="contactheadsec col-12">
-              <option value="" disabled selected hidden>
-                Select Services
-              </option>
-              <option value="service1">Service 1</option>
-              <option value="service2">Service 2</option>
-              <option value="service3">Service 3</option>
-            </select>
+            <div className="custom-dropdown">
+              <div className="dropdown-header" onClick={toggleDropdown}>
+                {selectedOption || " Select Services"}
+                {isOpen ? (
+                  <MdArrowDropUp className="mdarrow" />
+                ) : (
+                  <MdArrowDropDown className="mdarrow" />
+                )}
+              </div>
+              {isOpen && (
+                <ul className="dropdown-options">
+                  {options.map((option, index) => (
+                    <li key={index} onClick={() => handleOptionClick(option)}>
+                      {option}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
         </div>
 

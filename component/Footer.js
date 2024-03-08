@@ -8,40 +8,40 @@ export default function Footer() {
         <div className="footerBg">
           <div className="innerCard">
             <div className="row">
-              <div className="box addressBox">
-                <h1 className="serTxt">
+              <div className="box addressBox col-md-4 ps-5">
+                <div className="serTxt">
                   Suite #204 <br />
                   6010 W Spring Creek Pkwy, <br />
                   Plano, TX 75024, USA <br />
-                </h1>
+                </div>
                 <a className="customLink" href="info@taciti.com">
-                  <h2 className="ch2">info@taciti.com</h2>
+                  <div className="ch2">info@taciti.com</div>
                 </a>
               </div>
-              <div className="servicesBox mt-2  col-md-6">
-                <h1 className="serTxt">Services</h1>
-                <p>
+              <div className="servicesBox mt-2 col-md-3 ps-5">
+                <div className="serTxt">Services</div>
+                <div>
                   <Link href="/business-consulting/" className="customLink">
                     Strategy & Advisory
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   <Link href="/process-advisory/" className="customLink ">
                     ERP Lead Transformation
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   {" "}
                   <Link href="/business-transformation/" className="customLink">
                     Transformation Management <br></br>& Governance
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   <Link href="/technology-services/" className="customLink ">
                     Technology Services
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   {" "}
                   <Link
                     href="/talent-management-transformation/ "
@@ -49,48 +49,48 @@ export default function Footer() {
                   >
                     Human Capital Management
                   </Link>
-                </p>
+                </div>
               </div>
-              <div className="servicesBox mt-2   col-md-6">
-                <h1 className="serTxt">Industries</h1>
-                <p>
+              <div className="servicesBox mt-2  col-md-3 ps-5">
+                <div className="serTxt">Industries</div>
+                <div>
                   <Link
                     href="/manufacturing-industries/"
                     className="customLink"
                   >
                     Manufacturing Industries{" "}
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   <Link href="/life-sciences/" className="customLink">
                     Life Sciences
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   {" "}
                   <Link href="/consumer-packaged-goods/" className="customLink">
                     Consumer Packaged Goods{" "}
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   <Link href="/hi-tech/" className="customLink">
                     Hi-Tech{" "}
                   </Link>
-                </p>
-                <p>
+                </div>
+                <div>
                   {" "}
                   <Link href="/utility/" className="customLink">
                     Utilities
                   </Link>
-                </p>
+                </div>
               </div>
-              <div className="servicesBox mt-2  col-md-6">
-                <h1 className="serTxt">Quick Links</h1>
-                <p className="">
+              <div className="servicesBox mt-2 col-md-2 ps-5 ">
+                <div className="serTxt">Quick Links</div>
+                <div className="">
                   <Link href="/contact-us/" className="customLink">
                     Contact Us
                   </Link>
-                </p>
+                </div>
               </div>
             </div>
           </div>

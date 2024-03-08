@@ -116,6 +116,17 @@ body {
   color: #fff;
   overflow-y: auto;
 }
+.drawerLink {
+  display: block;
+  text-decoration: none;
+  padding: 20px 0;
+  font-size: 16px;
+  font-family: "futuraptMedium";
+  margin: 0 30px;
+  border-bottom: 1px solid rgba(215, 116, 116, 0.15);
+  color: #fff !important;
+  overflow-y: auto;
+}
 .Rahil {
   width: 80%;
   overflow-y: auto; /* Enable vertical scrolling */
@@ -279,7 +290,6 @@ body {
 }
 .box,
 .servicesBox {
-  flex: 1;
   /* text-align: center; */
   font-size: 22px;
   font-weight: 800;
@@ -324,16 +334,15 @@ body {
   /* text-align: center; */
 }
 
-.serTxt {
-  font-size: 20px;
+.serTxt h1 {
+  font-size: 20px !important;
 
-  font-family: "futuraptbold";
+  font-family: "futuraptbold " !important;
 }
 
 .customLink {
-  color: #fff;
+  color: #fff !important;
   font-size: 20px;
-
   text-decoration-line: none;
   font-family: "futuraptMedium";
 }
@@ -373,21 +382,21 @@ body {
 }
 
 .landingBox .textBox {
-  position: absolute;
+  position: absolute !important;
   margin: 130px 130px;
 }
 
 .landingBox .textBox h1 {
-  color: #fff;
-  font-size: 55px;
-  margin-bottom: 20px;
-  font-family: "futuramdmedium";
+  color: #fff !important;
+  font-size: 55px !important;
+  margin-bottom: 20px !important;
+  font-family: "futuramdmedium" !important;
 }
 
 .landingBox .textBox p {
-  color: #ffffff;
-  font-size: 22px;
-  font-family: "Roboto-Light";
+  color: #ffffff !important;
+  font-size: 22px !important;
+  font-family: "Roboto-Light" !important;
 }
 
 .landingBox .butterfly {
@@ -420,16 +429,16 @@ body {
 @media (max-width: 991px) {
   .landingBox .textBox {
     position: absolute;
-    margin: 50px 70px;
+    margin: 70px 70px;
   }
   .landingBox .textBox h1 {
-    font-size: 38px;
-    font-family: "futuramdmedium";
+    font-size: 38px !important;
+    font-family: "futuramdmedium" !important;
   }
 
   .landingBox .textBox p {
-    font-size: 18px;
-    font-family: "Roboto-Light";
+    font-size: 18px !important;
+    font-family: "Roboto-Light" !important;
   }
 }
 @media (max-width: 768px) {
@@ -446,16 +455,30 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .landingBox .textBox {
-    position: absolute;
-    margin: 50px 20px;
+  .landingBox .textBox h1 {
+    color: #fff !important;
+    font-size: 35px !important;
+    margin-bottom: 20px !important;
+    font-family: "futuramdmedium" !important;
   }
+
+  .landingBox .textBox {
+    position: absolute !important;
+    margin: 20px 20px !important;
+  }
+
+  .landingBox .textBox p {
+    color: #ffffff !important;
+    font-size: 15px !important;
+    font-family: "Roboto-Light" !important;
+  }
+
   .landingBox {
     background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
     background-size: contain;
     /* background-position: bottom right; */
     width: 100vw;
-    height: 90vh;
+    height: 70vh;
     /* background-color: rgb(2, 52, 103); */
     background-color: rgb(2, 69, 137);
   }
@@ -471,8 +494,8 @@ body {
 }
 
 .mainLineImg .AboutUs {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
   margin-bottom: 80px;
   &:last-child {
     margin-bottom: 60px;
@@ -489,9 +512,9 @@ body {
 }
 
 .mainLineImg .AboutUsBox .headTxt {
-  font-size: 31px;
-  line-height: 35px;
-  color: #0f7eed;
+  font-size: 31px !important;
+  line-height: 35px !important;
+  color: #0f7eed !important;
 
   font-family: "Robotomdmedium";
 }
@@ -560,12 +583,12 @@ body {
 
 /* Industries styles */
 .detailTxt2 {
-  font-size: 37px;
-  line-height: 48px;
-  color: #013470;
+  font-size: 37px !important;
+  line-height: 48px !important;
+  color: #013470 !important;
 
-  margin-bottom: 60px;
-  font-family: "futuraptbold";
+  margin-bottom: 60px !important;
+  font-family: "futuraptbold" !important;
 }
 
 .cardImgRce {
@@ -573,11 +596,11 @@ body {
 }
 
 .carHeadTxt {
-  color: #013470;
-  font-size: 27px;
+  color: #013470 !important;
+  font-size: 27px !important;
 
-  margin-bottom: 20px;
-  font-family: "futuraptbold";
+  margin-bottom: 20px !important;
+  font-family: "futuraptbold" !important;
 }
 
 .parain {
@@ -638,25 +661,25 @@ body {
 }
 
 .cardInCase .cardbody .caseheadTxt {
-  color: #303030;
-  font-size: 18px;
-  margin-bottom: 10px;
-  text-align: start;
-  font-family: "Roboto-Bold";
+  color: #303030 !important;
+  font-size: 18px !important;
+  margin-bottom: 10px !important;
+  text-align: start !important;
+  font-family: "Roboto-Bold" !important;
 }
 
 .cardInCase .cardbody .casePara {
-  color: #4e5764;
-  font-size: 18px;
-  text-align: start;
-  margin-bottom: 20px;
-  font-family: "Roboto Flex", sans-serif;
+  color: #4e5764 !important;
+  font-size: 18px !important;
+  text-align: start !important;
+  margin-bottom: 20px !important;
+  font-family: "Roboto-Light" !important;
 }
 
 .cardInCase .cardbody .caseStudy {
-  color: #0f7eed;
-  font-size: 18px;
-  text-align: start;
+  color: #0f7eed !important;
+  font-size: 18px !important;
+  text-align: start !important;
 }
 /* Responsive Industries Styles */
 
@@ -665,7 +688,7 @@ body {
     margin-bottom: 60px;
   }
   .carHeadTxt {
-    font-family: "futuraptbold";
+    font-family: "futuraptbold" !important;
   }
 
   .cardInCase .cardbody {
@@ -677,9 +700,9 @@ body {
     margin-bottom: 40px;
   }
   .detailTxt2 {
-    font-size: 32px;
-    line-height: 35px;
-    font-family: "futuraptbold";
+    font-size: 32px !important;
+    line-height: 35px !important;
+    font-family: "futuraptbold" !important;
   }
 }
 @media (max-width: 600px) {
@@ -702,17 +725,18 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  /* justify-content: start; */
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 .xaxisSlide .incremanetalHeadTxt {
-  font-size: 37px;
-  color: #013470;
+  font-size: 37px !important;
+  color: #013470 !important;
 
-  margin: 100px 0px 50px 0px;
-  font-family: "futuraptbold";
+  margin: 100px 0px 50px 0px !important;
+  font-family: "futuraptbold" !important;
 }
 
 .xaxisSlide .borderROundedRec {
@@ -739,15 +763,15 @@ body {
 }
 
 .xaxisSlide .borderROundedRec .innerBox .contentCard .num {
-  color: #fff;
-  font-size: 24px;
-  font-family: "Roboto-Bold";
+  color: #fff !important;
+  font-size: 24px !important;
+  font-family: "Roboto-Bold" !important;
 }
 
 .xaxisSlide .borderROundedRec .innerBox .contentCard .text {
-  color: #fff;
-  font-size: 18px;
-  font-family: "Roboto-Light";
+  color: #fff !important;
+  font-size: 18px !important;
+  font-family: "Roboto-Light" !important;
 }
 
 @media (max-width: 991px) {
@@ -794,8 +818,8 @@ body {
     text-align: start;
   }
   .xaxisSlide .incremanetalHeadTxt {
-    font-family: "futuraptbold";
-    margin: 50px 0px 50px 0px;
+    font-family: "futuraptbold" !important;
+    margin: 50px 0px 50px 0px !important;
   }
 }
 
@@ -820,63 +844,64 @@ body {
 }
 
 .bookBox .reconBox .headingReconTxt {
-  font-size: 31px;
-  line-height: 35px;
-  color: #0f7eed;
-  font-weight: 600;
-  font-family: "Public Sans", sans-serif;
+  font-size: 31px !important;
+  line-height: 35px !important;
+  color: #0f7eed !important;
+  font-weight: 600 !important;
+  font-family: "Public Sans", sans-serif !important;
 }
 
 .bookBox .reconBox .recogPara {
-  font-size: 37px;
-  line-height: 1.1em;
-  color: #013470;
+  font-size: 37px !important;
+  line-height: 1.1em !important;
+  color: #013470 !important;
 
-  margin-bottom: 30px;
-  font-family: "futuraptbold";
+  margin-bottom: 30px !important;
+  font-family: "futuraptbold" !important;
 }
 
 .bookBox .reconBox .liteTxt {
-  font-size: 21px;
-  color: #4e5764;
-  font-family: "Roboto-Light";
+  font-size: 21px !important;
+  color: #4e5764 !important;
+  font-family: "Roboto-Light" !important;
 }
-
+.techPartrSx {
+  margin-top: 100px !important;
+}
 .bookBox .TecBox h1 {
-  margin-bottom: 20px;
-  color: #0f7eed;
-
-  font-size: 37px;
-  font-weight: 600;
-  font-family: "Public Sans", sans-serif;
+  margin-bottom: 20px !important;
+  color: #0f7eed !important;
+  font-size: 37px !important;
+  font-weight: 600 !important;
+  font-family: "Public Sans", sans-serif !important;
 }
 
 .bookBox .TecBox h1 span {
-  color: #013470;
+  color: #013470 !important;
 }
 
 .TecBox .belowBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .TecBox .belowBox .textBox {
-  margin-right: 40px;
+  margin: 0 40px !important;
 }
 
 .TecBox .belowBox .textBox h1 {
-  color: #4e5764;
-  font-size: 45px;
+  color: #4e5764 !important;
+  font-size: 45px !important;
 
-  font-family: "futuraptLight";
-  margin-bottom: 10px;
+  font-family: "futuraptLight" !important;
+  margin-bottom: 10px !important;
 }
 
 .TecBox .belowBox .textBox h2 {
-  color: #4e5764;
-  font-size: 18px;
-  font-family: "futuraptLight";
+  color: #4e5764 !important;
+  font-size: 18px !important;
+  font-family: "futuraptLight" !important;
 }
 
 @media (max-width: 991px) {
@@ -897,7 +922,7 @@ body {
     margin-bottom: 15px;
   }
   .TecBox .belowBox .textBox {
-    margin-right: 30px;
+    margin: 0 30px !important;
   }
 
   .TecBox .belowBox .textBox h1 {
@@ -936,8 +961,8 @@ body {
     text-align: start;
   }
   .xaxisSlide .incremanetalHeadTxt {
-    font-family: "futuraptbold";
-    margin: 50px 0px 50px 0px;
+    font-family: "futuraptbold" !important;
+    margin: 50px 0px 50px 0px !important;
   }
   .bookBox .reconBox {
     align-items: center;
@@ -953,14 +978,17 @@ body {
     font-family: "futuraptbold";
   }
   .bookBox .reconBox .liteTxt {
-    text-align: center;
+    text-align: center !important;
   }
   .bookBox .TecBox h1 {
     font-size: 32px;
     margin-bottom: 15px;
   }
+  .techPartrSx {
+    margin-top: 50px;
+  }
   .TecBox .belowBox .textBox {
-    margin-right: 20px;
+    margin: 0 10px !important;
   }
 
   .TecBox .belowBox .textBox h1 {
@@ -992,23 +1020,32 @@ body {
   justify-content: center;
 }
 .contacttextwidth {
-  width: 20%;
-  margin: 20px;
+  width: 23%;
+  margin: 20px 40px;
+}
+.contactheadsec {
+  border: none;
+  outline: none;
+  font-family: "Roboto-Light";
+}
+.contactheadsec::placeholder {
+  font-size: 16px;
+  color: #4e5764;
 }
 .contacttextwidthdes {
-  width: 42%;
+  width: 52%;
   margin: 20px;
 }
 .contactheadfirst {
   font-size: 32px;
   color: #174c93;
   font-family: "futuraptbold";
-  font-weight: 600;
 }
 .contactheadsub {
   font-size: 18px;
-  font-weight: 400;
-  color: gray;
+  font-family: "Roboto-Light";
+  color: #4e5764;
+  text-align: center;
 }
 
 /* Styling for input fields */
@@ -1016,12 +1053,12 @@ body {
 .contacttextwidth select,
 .contacttextwidthdes input {
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
   border: none;
   border-bottom: 2px solid #3f78bd; /* Blue bottom border */
   background-color: transparent;
-  color: grey; /* Change text color */
-  font-size: 12px;
+  color: #4e5764;
+  font-size: 16px;
   font-weight: 400;
   margin-top: 5px; /* Adjust spacing */
 }
@@ -1033,14 +1070,18 @@ body {
   background-repeat: no-repeat;
   background-position-x: 95%;
   background-position-y: 50%;
-  font-size: 12px;
+  color: #4e5764;
+  font-size: 16px;
   font-weight: 400;
+  font-family: "Roboto-Light";
   padding-right: 25px; /* Adjust spacing for the arrow */
   border: none;
   border-bottom: 2px solid #3f78bd;
   margin: 0; /* Remove margin */
   outline: none;
 }
+/* Style for select dropdown options */
+
 /* Change the color of the SVG */
 textarea.input-blue-bottom-border {
   border: none;
@@ -1075,12 +1116,36 @@ textarea.input-blue-bottom-border {
   margin-bottom: 10px;
   width: 100%;
 }
-
+.input-blue-bottom-borderone::placeholder {
+  color: #4e5764;
+  font-size: 16px;
+  font-family: "Roboto-Light";
+}
 .input-blue-bottom-border:focus {
 }
 
 textarea.input-blue-bottom-border {
   min-height: 20px;
+}
+
+.custom-select {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #3f78bd; /* Blue bottom border */
+  background-color: transparent;
+  color: #4e5764;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto-Light";
+  margin-top: 5px; /* Adjust spacing */
+  appearance: none; /* Remove default arrow */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='grey' class='bi bi-caret-down-fill' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  padding-right: 25px; /* Adjust spacing for the arrow */
+  outline: none;
 }
 @media (max-width: 820px) {
   /* Contact */
@@ -1120,24 +1185,15 @@ textarea.input-blue-bottom-border {
     font-family: "futuraptbold";
     font-weight: 600;
   }
-  .contactheadsub {
-    font-size: 18px;
-    font-weight: 400;
-    color: gray;
-  }
 
   /* Styling for input fields */
   .contacttextwidth input,
   .contacttextwidth select,
   .contacttextwidthdes input {
     width: 100%;
-    padding: 10px;
     border: none;
     border-bottom: 2px solid #3f78bd; /* Blue bottom border */
     background-color: transparent;
-    color: #000; /* Change text color */
-    font-size: 12px;
-    font-weight: 400;
     margin-top: 5px; /* Adjust spacing */
   }
 
@@ -1146,10 +1202,9 @@ textarea.input-blue-bottom-border {
     appearance: none; /* Remove default arrow */
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 10 10'%3E%3Cpath d='M3.5 5l3 3 3-3z' fill='grey'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
+
     background-position-x: 95%;
     background-position-y: 50%;
-    font-size: 12px;
-    font-weight: 400;
     padding-right: 25px; /* Adjust spacing for the arrow */
   }
   .Contactsendmsg {
@@ -1214,15 +1269,11 @@ textarea.input-blue-bottom-border {
     margin: 20px;
   }
   .contactheadfirst {
-    font-size: 20px;
+    font-size: 22px;
     color: #174c93;
     font-family: "futuraptbold";
-    font-weight: 600;
-  }
-  .contactheadsub {
-    font-size: 12px;
-    font-weight: 400;
-    color: gray;
+
+    text-align: center;
   }
 
   /* Styling for input fields */
@@ -1230,13 +1281,9 @@ textarea.input-blue-bottom-border {
   .contacttextwidth select,
   .contacttextwidthdes input {
     width: 100%;
-    padding: 10px;
     border: none;
     border-bottom: 2px solid #3f78bd; /* Blue bottom border */
     background-color: transparent;
-    color: #000; /* Change text color */
-    font-size: 12px;
-    font-weight: 400;
     margin-top: 5px; /* Adjust spacing */
   }
 
@@ -1247,8 +1294,6 @@ textarea.input-blue-bottom-border {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
-    font-size: 12px;
-    font-weight: 400;
     padding-right: 25px; /* Adjust spacing for the arrow */
   }
   .Contactsendmsg {
@@ -1304,6 +1349,10 @@ textarea.input-blue-bottom-border {
     align-items: center;
     justify-content: center;
   }
+  .contactheadsub {
+    font-size: 16px;
+    padding: 0 20px;
+  }
   .contacttextwidth {
     width: 50%;
     margin: 20px;
@@ -1312,32 +1361,15 @@ textarea.input-blue-bottom-border {
     width: 100%;
     margin: 20px;
   }
-  .contactheadfirst {
-    width: 80%;
-    font-size: 15px;
-    color: #174c93;
-    font-family: "futuraptbold";
-    font-weight: 600;
-    text-align: center;
-  }
-  .contactheadsub {
-    font-size: 8px;
-    font-weight: 400;
-    color: gray;
-  }
 
   /* Styling for input fields */
   .contacttextwidth input,
   .contacttextwidth select,
   .contacttextwidthdes input {
     width: 100%;
-    padding: 10px;
     border: none;
     border-bottom: 2px solid #3f78bd; /* Blue bottom border */
     background-color: transparent;
-    color: #000; /* Change text color */
-    font-size: 12px;
-    font-weight: 400;
     margin-top: 5px; /* Adjust spacing */
   }
 
@@ -1348,8 +1380,6 @@ textarea.input-blue-bottom-border {
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
-    font-size: 12px;
-    font-weight: 400;
     padding-right: 25px; /* Adjust spacing for the arrow */
   }
   .Contactsendmsg {
@@ -1430,4 +1460,47 @@ textarea.input-blue-bottom-border {
 @font-face {
   font-family: "Roboto-Bold";
   src: url(../public/fonts/Roboto-Bold.ttf);
+}
+
+.custom-dropdown {
+  position: relative;
+}
+
+.dropdown-header {
+  cursor: pointer;
+  border: none;
+  font-family: "Roboto-Light";
+  border-bottom: 2px solid #3f78bd;
+  color: #4e5764;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-options {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  border: #0f7eed 1px solid;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.mdarrow {
+  width: 10%;
+  height: 10%;
+  color: #4e5764;
+}
+.dropdown-options li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-options li:hover {
+  background-color: #f0f0f0;
 }
