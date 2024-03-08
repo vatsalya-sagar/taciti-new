@@ -21,7 +21,7 @@ export default function Home() {
               transformation services for businesses. Our unbiased <br />
               advisory approach helps our clients achieve growth <br />
               and success in their industries. Our services include <br />
-              Strategy & Advisory , Process Reengineering & Optimization <br />
+              Strategy & Advisory , Process Reengineering & Optimisation <br />
               and Technology Implementation.
             </div>
           </div>
@@ -34,19 +34,19 @@ export default function Home() {
             <div className="AboutUsBox">
               <h1 className="headTxt">About Us</h1>
               <h2 className="detailTxt">
-                We are specialized in Business <br /> & Technology Consulting
+                We are specialised in Business <br /> & Technology Consulting
               </h2>
               <p className="para">
                 Founded in 2019 as DPCon Solutions by enterprises professionals
                 with over 25years of experience. Recently <br />
-                have undertaken a rebranding excersice and have change the
+                have undertaken a rebranding exercise and have change the
                 firm's name to Taciti Consulting. <br />
-                We offer unbaised advisory services and comprehensive end-to-end
-                digital transformation solutuons. We have <br />
-                worked with some of the biggest brands accross the globe through
+                We offer unbiased advisory services and comprehensive end-to-end
+                digital transformation solutions. We have <br />
+                worked with some of the biggest brands across the globe through
                 the process and Technology Innovations. <br />
                 The have helped them flourish as well as add value to the
-                internal and external takeholders.
+                internal and external stakeholders.
               </p>
               <a href="/contact-us/">
                 <button className="ContactBtn">Contact Us</button>
@@ -59,7 +59,7 @@ export default function Home() {
           <div id="Services">
             <div className="AboutUs">
               <div className="AboutUsBox">
-                <h1 className="headTxt">Recent Client Engagments</h1>
+                <h1 className="headTxt">Recent Client Engagements</h1>
                 <h2 className="detailTxt2">
                   End to End Digital Transformation Service
                 </h2>
@@ -77,10 +77,10 @@ export default function Home() {
                         Order-to-order <br /> Transformation
                       </h1>
                       <p className="parain">
-                        A recent collabration with a client from the
-                        enviromental and life sciences industry involved and
-                        impactful "Order-to-Cash Assesment and Process
-                        Improvment initiative"
+                        A recent collaboration with a client from the
+                        environmental and life sciences industry involved and
+                        impactful "Order-to-Cash Assessment and Process
+                        Improvement initiative"
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -96,7 +96,7 @@ export default function Home() {
                         <br /> Through Cloud{" "}
                       </h1>
                       <p className="parain">
-                        We spreadhead a worldwide transformation of a Learning
+                        We spearheaded a worldwide transformation of a Learning
                         management System (LMS) for a prominent global
                         technology leader.
                       </p>
@@ -113,10 +113,10 @@ export default function Home() {
                         SAP S / 4HANA Led <br /> Digital Transformation
                       </h1>
                       <p className="parain">
-                        The primary objectiveis to streamline operations by
-                        minimizing complexety, fostering process harmonization
+                        The primary objectives to streamline operations by
+                        minimising complexity, fostering process harmonisation
                         among various business units, and establishing
-                        standardized procedures through a unified digital core
+                        standardised procedures through a unified digital core
                         built on SAP S/4HANA.
                       </p>
                     </div>
@@ -150,11 +150,11 @@ export default function Home() {
                           />
                         </div>
                         <div className="cardbody">
-                          <h1 className="caseheadTxt">Stratergy & Advisory</h1>
+                          <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing Working Capital, An <br /> Order to Cash
+                            Optimising Working Capital, An <br /> Order to Cash
                             transformation for a<br /> leading Life Sciences
-                            majot.
+                            major.
                           </p>
                           <a
                             href="/casestudy/case-study-category-strategy-advisory/"
@@ -281,7 +281,7 @@ export default function Home() {
           <div className="xaxisSlide">
             <div className="contentBox">
               <h1 className="incremanetalHeadTxt">
-                We are passionate about accelerated <br /> & increamental
+                We are passionate about accelerated <br /> & incremental
                 improvements.
               </h1>
               <div className="borderROundedRec">
@@ -346,13 +346,13 @@ export default function Home() {
                 <div className="reconBox">
                   <h1 className="headingReconTxt">Recognition</h1>
                   <p className="recogPara">
-                    Lam Research acknowlodges <br />
+                    Lam Research acknowledges <br />
                     our expertise and significant <br />
                     contribution to their digital <br />
                     transformation journey
                   </p>
                   <p className="liteTxt">
-                    With recenter branding excersice, we have changes our <br />
+                    With recente branding exercise, we have changes our <br />
                     Company name from DPcon Solution Tactiti Consulting.
                   </p>
                 </div>
@@ -369,7 +369,7 @@ export default function Home() {
                     </div>
                     <div className="textBox">
                       <h1 className="sap">Corner Stone</h1>
-                      <h2>Teaming Agrement</h2>
+                      <h2>Teaming Agreement</h2>
                     </div>
                   </div>
                 </div>
