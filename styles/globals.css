@@ -1505,39 +1505,38 @@ textarea.input-blue-bottom-border {
   background-color: #f0f0f0;
 }
 
-
-.about-section{
+.about-section {
   background: url("/images/about-page.webp") no-repeat;
   background-position: center;
   height: 820px;
   background-size: cover;
 }
 
-.about-section h1{
+.about-section h1 {
   padding-top: 100px;
 }
 
-.about-second{
+.about-second {
   background: url("/images/bg-about-us.webp");
 }
-.about-team{
+.about-team {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 35vh;
 }
-.vision-heading{
+.vision-heading {
   color: #013470;
-    font-family: "Futura PT Bold", Sans-serif;
-    font-size: 31px;
-    font-weight: bold;
+  font-family: "Futura PT Bold", Sans-serif;
+  font-size: 31px;
+  font-weight: bold;
 }
-
 
 /* CustomPopup.module.css */
 
 .popupContainer {
   position: relative;
+  width: 100%;
 }
 
 .popup {
@@ -1553,10 +1552,13 @@ textarea.input-blue-bottom-border {
   background-position: top;
   height: auto;
   background-size: cover;
+  background-color: #000 !important;
 }
-
-
-
+body .pops {
+  display: flex;
+  width: 100%;
+  background-color: #013470;
+}
 .closeButton {
   cursor: pointer;
   position: absolute;
@@ -1568,35 +1570,35 @@ textarea.input-blue-bottom-border {
   margin-top: 20px;
 }
 
-.about-second h4{
+.about-second h4 {
   color: #013470;
-    font-family: "Futura PT Bold", Sans-serif;
-    font-size: 31px;
-    font-weight: 600;
+  font-family: "Futura PT Bold", Sans-serif;
+  font-size: 31px;
+  font-weight: 600;
 }
 /* Add any additional styling as needed */
-.about-team .inline-name{
-  background-color: #0707078F;
+.about-team .inline-name {
+  background-color: #0707078f;
   color: #fff;
 }
-.about-team .inline-name h6{
+.about-team .inline-name h6 {
   color: #fff !important;
   font-size: 20px;
   font-weight: 600;
 }
 
-.about-team-class{
+.about-team-class {
   padding-top: 40px;
 }
 
-.about-team{
+.about-team {
   position: relative;
-  min-height: 100%; 
+  min-height: 100%;
 }
-.about-team:hover{
+.about-team:hover {
   color: #013470;
 }
-.description p{
+.description p {
   color: #fff !important;
   text-align: center;
   font-size: 15px;
@@ -1604,50 +1606,79 @@ textarea.input-blue-bottom-border {
   margin: 0;
   padding: 0;
 }
-.inner-design p{
+.inner-design p {
   color: #000;
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  
 }
 .card-body-list {
   margin: 10px;
 }
 
-.inline-name{
-     position: absolute;
-      bottom: 0;
-      width: 100%; /* Make the container span the full width of its parent */
-      background-color: #f0f0f0;
-      padding: 5px;
-      box-sizing: border-box;
-      cursor: -webkit-grab; 
-      cursor: grab;
+.inline-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Make the container span the full width of its parent */
+  background-color: #f0f0f0;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 
-
-
-.qot-left img{
+.qot-left img {
   height: 45px;
   width: 45px;
 }
 
-.qot-left{
+.qot-left {
   display: flex;
   justify-content: flex-end;
 }
-.qot-right img{
-
+.qot-right img {
   height: 45px;
   width: 45px;
 }
 
-.inner-qot-data{
-padding-top: 20px;
+.inner-qot-data {
+  padding-top: 20px;
   padding-left: 90px;
 }
 
-.space5{
+.space5 {
   padding-top: 20px;
+}
+/* hover effect */
+.about-team:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #063972;
+  opacity: 0.5;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #063972;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.modal-body {
+  max-height: 700px; /* Adjust the maximum height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+@media (max-width: 768px) {
+  .popup {
+    width: 90%;
+    max-width: 90%;
+  }
 }
