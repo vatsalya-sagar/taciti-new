@@ -17,11 +17,11 @@ export default function Home() {
               Empowering <br /> Digital <br /> Transformation
             </h1>
             <div className="descripitioncustom">
-              Our expertise lies in providing end to end digital <br />
+              Our expertise lies in providing end-to-end digital <br />
               transformation services for businesses. Our unbiased <br />
               advisory approach helps our clients achieve growth <br />
               and success in their industries. Our services include <br />
-              Strategy & Advisory , Process Reengineering & Optimisation, <br />
+              Strategy & Advisory , Process Reengineering & Optimization, <br />
               and Technology Implementation.
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
             <div className="AboutUsBox">
               <h1 className="headTxt">About Us</h1>
               <h2 className="detailTxt">
-                We are specialised in Business <br /> & Technology Consulting.
+                We are specialize in Business <br /> & Technology Consulting.
               </h2>
               <p className="para">
                 Founded in 2019 as DPCon Solutions by enterprise professionals
@@ -61,7 +61,7 @@ export default function Home() {
               <div className="AboutUsBox">
                 <h1 className="headTxt">Recent Client Engagements</h1>
                 <h2 className="detailTxt2">
-                  End to End Digital Transformation Service
+                  End-to-End Digital Transformation Service
                 </h2>
                 <div className="container cont-sx mb-3">
                   <div className="row">
@@ -152,7 +152,7 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing Working Capital, An <br /> Order to Cash
+                            Optimizing Working Capital, An <br /> Order-to-Cash
                             Transformation for a<br /> Leading Life Sciences
                             Major.
                           </p>
