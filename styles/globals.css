@@ -1650,6 +1650,10 @@ body .pops {
   padding-top: 20px;
 }
 /* hover effect */
+
+.cusor {
+  cursor: pointer;
+}
 .about-team:hover::before {
   content: "";
   position: absolute;

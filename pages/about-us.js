@@ -98,7 +98,11 @@ export default function AboutUs({ userData }) {
             </p>
             <div className="space5"></div>
             {userData.map((item, index) => (
-              <div className="col-lg-3" key={item.id}>
+              <div
+                className="col-lg-3 cusor"
+                key={item.id}
+                onClick={() => openPopup(item.databaseId)}
+              >
                 <div className="card-body-list">
                   <div
                     className="about-team"
@@ -106,10 +110,7 @@ export default function AboutUs({ userData }) {
                       backgroundImage: `url(${item.featuredImage.node.guid})`,
                     }}
                   >
-                    <div
-                      className="inline-name openButton"
-                      onClick={() => openPopup(item.databaseId)}
-                    >
+                    <div className="inline-name openButton">
                       <h6 className="text-center">{item.title}</h6>
                       <div
                         className="description"

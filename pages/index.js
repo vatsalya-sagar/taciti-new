@@ -21,7 +21,7 @@ export default function Home() {
               transformation services for businesses. Our unbiased <br />
               advisory approach helps our clients achieve growth <br />
               and success in their industries. Our services include <br />
-              Strategy & Advisory , Process Reengineering & Optimisation <br />
+              Strategy & Advisory , Process Reengineering & Optimisation, <br />
               and Technology Implementation.
             </div>
           </div>
@@ -34,19 +34,19 @@ export default function Home() {
             <div className="AboutUsBox">
               <h1 className="headTxt">About Us</h1>
               <h2 className="detailTxt">
-                We are specialised in Business <br /> & Technology Consulting
+                We are specialised in Business <br /> & Technology Consulting.
               </h2>
               <p className="para">
-                Founded in 2019 as DPCon Solutions by enterprises professionals
-                with over 25years of experience. Recently <br />
-                have undertaken a rebranding exercise and have change the
-                firm's name to Taciti Consulting. <br />
-                We offer unbiased advisory services and comprehensive end-to-end
-                digital transformation solutions. We have <br />
-                worked with some of the biggest brands across the globe through
-                the process and Technology Innovations. <br />
-                The have helped them flourish as well as add value to the
-                internal and external stakeholders.
+                Founded in 2019 as DPCon Solutions by enterprise professionals
+                with over 25 years of experience, <br />
+                we have recently undertaken a rebranding exercise and changed
+                the firm's name to Taciti Consulting. <br /> We offer unbiased
+                advisory services and comprehensive end-to-end digital
+                transformation solutions.
+                <br /> We have worked with some of the biggest brands across the
+                globe through process and technology innovations, <br />
+                helping them flourish as well as adding value to the internal
+                and external stakeholders.
               </p>
               <a href="/contact-us/">
                 <button className="ContactBtn">Contact Us</button>
@@ -97,7 +97,7 @@ export default function Home() {
                       </h1>
                       <p className="parain">
                         We spearheaded a worldwide transformation of a Learning
-                        management System (LMS) for a prominent global
+                        Management System (LMS) for a prominent global
                         technology leader.
                       </p>
                     </div>
@@ -113,10 +113,10 @@ export default function Home() {
                         SAP S / 4HANA Led <br /> Digital Transformation
                       </h1>
                       <p className="parain">
-                        The primary objectives to streamline operations by
-                        minimising complexity, fostering process harmonisation
+                        The primary objectives are to streamline operations by
+                        minimizing complexity, fostering process harmonization
                         among various business units, and establishing
-                        standardised procedures through a unified digital core
+                        standardized procedures through a unified digital core
                         built on SAP S/4HANA.
                       </p>
                     </div>
@@ -152,9 +152,9 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimising Working Capital, An <br /> Order to Cash
-                            transformation for a<br /> leading Life Sciences
-                            major.
+                            Optimizing Working Capital, An <br /> Order to Cash
+                            Transformation for a<br /> Leading Life Sciences
+                            Major.
                           </p>
                           <a
                             href="/casestudy/case-study-category-strategy-advisory/"
@@ -194,10 +194,9 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">ERP Transformation</h1>
                           <p className="casePara">
-                            A large scale SAP S/ 4 HANA led <br />
-                            digital transformation for a US
-                            <br />
-                            based manufacturer.
+                            A large scale SAP S/4HANA-led <br />
+                            digital transformation for a <br />
+                            US-based manufacturer.
                           </p>
                           <a
                             href="/casestudy/case-study-category-erp-transformation/"
@@ -238,10 +237,9 @@ export default function Home() {
                           <h1 className="caseheadTxt">Technology Services</h1>
                           <p className="casePara">
                             Empowering services with <br />
-                            No-code/Low-Code (MS power <br />
-                            platform) for a manufacturing
+                            No-Code/Low-Code (Microsoft Power Platform) for a
+                            manufacturing leader.
                             <br />
-                            leaser.
                           </p>
                           <a
                             href="/casestudy/case-study-category-technology-services/"
@@ -281,7 +279,7 @@ export default function Home() {
           <div className="xaxisSlide">
             <div className="contentBox">
               <h1 className="incremanetalHeadTxt">
-                We are passionate about accelerated <br /> & incremental
+                We are passionate about accelerated <br /> and incremental
                 improvements.
               </h1>
               <div className="borderROundedRec">
@@ -352,8 +350,9 @@ export default function Home() {
                     transformation journey
                   </p>
                   <p className="liteTxt">
-                    With recente branding exercise, we have changes our <br />
-                    Company name from DPcon Solution Tactiti Consulting.
+                    With our recent rebranding exercise, we have changed our{" "}
+                    <br />
+                    Company name from DPcon Solutions to Taciti Consulting.
                   </p>
                 </div>
               </div>
