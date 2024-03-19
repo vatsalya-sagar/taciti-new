@@ -179,7 +179,7 @@ export default function Contact() {
                   <p>info@taciti.com</p>
                 </a>
               </div>
-              <div className="servicesBox  mt-5 cent col-md-4  ">
+              <div className="servicesBox cent col-md-4  ">
                 <strong>Pune, India</strong>
                 <div>
                   <p>
