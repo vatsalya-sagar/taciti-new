@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <div id="footer" className="footer">
         <div className="footerBg">
-          <div className="innerCard">
+          <div className="innerCard  ">
             <div className="row">
               <div className="box addressBox col-md-4 ps-5">
                 <div className="serTxt">

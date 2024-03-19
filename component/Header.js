@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useRef, useEffect } from "react";
-import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
-import { PiDotsThreeOutline } from "react-icons/pi";
+import React, { useEffect, useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import { PiDotsThreeOutline } from "react-icons/pi";
+import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 
 export default function Header() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -55,8 +55,7 @@ export default function Header() {
         <div className="brandLogo">
           <Link href="/">
             {/* <Image src="./images/tactiti.svg" height="70" width="160" alt="" /> */}
-            <img src="/images/tactiti.svg" alt="logo" height="70" width="160"  />
-
+            <img src="/images/tactiti.svg" alt="logo" height="70" width="160" />
           </Link>
         </div>
         <div className="LinkBox  ">
@@ -69,7 +68,7 @@ export default function Header() {
 
               <div class="dropdown-content">
                 <a href="/business-consulting/">Strategy & Advisory</a>
-                <a href="/process-advisory/">ERP Lead Transformation</a>
+                <a href="/process-advisory/">ERP Led Transformations</a>
                 <a href="/business-transformation/">
                   Transformation Management <br></br>& Governance
                 </a>
@@ -214,6 +213,3 @@ export default function Header() {
     </>
   );
 }
-
-
-

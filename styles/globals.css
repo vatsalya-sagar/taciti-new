@@ -328,7 +328,9 @@ body {
 
   /* Example background color */
 }
-
+#footer .cent {
+  padding-left: 250px;
+}
 .servicesBox {
   flex: 1;
   /* text-align: center; */
@@ -1685,4 +1687,21 @@ body .pops {
     width: 90%;
     max-width: 90%;
   }
+}
+
+
+.footerBg-2{
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("https://taciti.coinage.host/wp-content/uploads/2024/02/case-study-thumbnial-background-02.png");
+  background-size: cover;
+}
+
+.footerBg-2 h3{
+  padding-bottom: 20px;
+}
+
+.footerBg-2 strong{
+  color: #212529;;
 }
