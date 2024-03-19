@@ -5,7 +5,14 @@ import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 export default function Contact() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
-  const options = ["Option 1", "Option 2", "Option 3"];
+  const options = [
+    "Manufacturing Industries",
+    "Life Sciences",
+    "Consumer Packaged Goods",
+    "Hi-Tech",
+    "Utilities",
+    "Other",
+  ];
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
@@ -18,7 +25,14 @@ export default function Contact() {
 
   const [isOpend, setIsOpend] = useState(false);
   const [selectedOptiond, setSelectedOptiond] = useState(null);
-  const optionsd = ["Option 1", "Option 2", "Option 3"];
+  const optionsd = [
+    "Strategy & Advisory",
+    "ERP Led Transformations",
+    "Transformation Management & Governance",
+    "Technology Services",
+    "Human Capital Management",
+    "Other",
+  ];
 
   const toggleDropdownd = () => {
     setIsOpend(!isOpend);
@@ -110,12 +124,12 @@ export default function Contact() {
                 </div>
                 {isOpend && (
                   <ul className="dropdown-options">
-                    {optionsd.map((option, index) => (
+                    {optionsd.map((optiond, index) => (
                       <li
                         key={index}
-                        onClick={() => handleOptionClickd(option)}
+                        onClick={() => handleOptionClickd(optiond)}
                       >
-                        {optionsd}
+                        {optiond}
                       </li>
                     ))}
                   </ul>
@@ -159,39 +173,52 @@ export default function Contact() {
           <div className="contacttextc mt-4 ">
             <button className="Contactsendmsg">Send message</button>
           </div>
-        </div>
-      </div>
 
-      <div id="footer" className="footer">
-        <div className="footerBg-2">
-          <div className="innerCard container">
-            <div className="row">
-            <h3>Our Offices</h3>
-              <div className="col-md-4">
-               
-                <strong>Plano, TX, USA</strong>
-                <p>
-                  Suite #204 <br />
-                  6010 W Spring Creek Pkwy, <br />
-                  Plano, TX 75024, USA <br />
-                </p>
-                <a className="customLink" href="info@taciti.com">
-                  <p>info@taciti.com</p>
-                </a>
-              </div>
-              <div className="servicesBox cent col-md-4  ">
-                <strong>Pune, India</strong>
-                <div>
-                  <p>
-                    C-607, Teerth Technospace, <br />
-                    Begnaluru-Mumbai Highway,
-                    <br /> Baner, Pune – 411045, India.
-                  </p>
-                </div>
-                <div>
-                  <p>
-                    info@taciti.com
-                  </p>
+          <div id="footer" className="footer">
+            <div className="footerB mt-5">
+              <div className="innerCard ">
+                <div className="row   container">
+                  <div className="box addressBox   col-md-4    ">
+                    <div className="serTxtcon ">Our Offices</div>
+                    <div className="serTxtcon mt-3">Plano, TX, USA</div>
+                    <div className="customLinkcont mt-3 ">
+                      Suite #204 <br />
+                      6010 W Spring Creek Pkwy, <br />
+                      Plano, TX 75024, USA <br />
+                    </div>
+                    <a className="customLinkcont" href="info@taciti.com">
+                      <div className="ch2cont">info@taciti.com</div>
+                    </a>
+                  </div>
+                  <div className="servicesBox  mt-5  col-md-4  ">
+                    <div className="serTxtcon">Pune, India</div>
+                    <div>
+                      <Link href="#" className="customLinkcont">
+                        C-607, Teerth Technospace, Begnaluru-Mumbai Highway,
+                        Baner, Pune – 411045, India.
+                      </Link>
+                    </div>
+                    <div>
+                      <Link href="info@taciti.com" className="customLinkcont ">
+                        info@taciti.com
+                      </Link>
+                    </div>
+                  </div>
+
+                  <div className="servicesBox  mt-5  col-md-4 ">
+                    <div className="serTxtcon">Hyderabad, India</div>
+                    <div>
+                      <Link href="#" className="customLinkcont">
+                        Trendz JR, 5B, Survey No:31-36, Vittal Rao
+                        Nagar,Madhapur, Hyderabad-500081, India
+                      </Link>
+                    </div>
+                    <div>
+                      <Link href="info@taciti.com" className="customLinkcont">
+                        info@taciti.com
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

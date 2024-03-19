@@ -329,7 +329,6 @@ body {
   /* Example background color */
 }
 #footer .cent {
-  padding-left: 250px;
 }
 .servicesBox {
   flex: 1;
@@ -342,14 +341,34 @@ body {
   font-family: "futuraptbold " !important;
 }
 
+.serTxtcon {
+  font-size: 20px !important;
+  color: #303030 !important;
+  font-family: "futuraptbold " !important;
+}
+
 .customLink {
   color: #fff !important;
   font-size: 20px;
   text-decoration-line: none;
   font-family: "futuraptMedium";
 }
+
+.customLinkcont {
+  color: #303030 !important;
+  font-size: 20px;
+  text-decoration-line: none;
+  font-family: "futuraptMedium";
+}
+.ch2cont {
+  color: #303030 !important;
+  font-size: 20px;
+
+  text-decoration-line: none;
+  font-family: "futuraptMedium";
+}
 .ch2 {
-  color: #fff;
+  color: white !important;
   font-size: 20px;
 
   text-decoration-line: none;
