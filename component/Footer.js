@@ -14,7 +14,7 @@ export default function Footer() {
                   6010 W Spring Creek Pkwy, <br />
                   Plano, TX 75024, USA <br />
                 </div>
-                <a className="customLink" href="info@taciti.com">
+                <a className="customLink" href="#info@taciti.com">
                   <div className="ch2">info@taciti.com</div>
                 </a>
               </div>

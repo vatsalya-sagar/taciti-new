@@ -175,7 +175,7 @@ export default function Contact() {
           </div>
 
           <div id="footer" className="footer">
-            <div className="footerB mt-5">
+            <div className="footerBcontact mt-5">
               <div className="innerCard ">
                 <div className="row   container">
                   <div className="box addressBox   col-md-4    ">
@@ -190,7 +190,7 @@ export default function Contact() {
                       6010 W Spring Creek Pkwy, <br />
                       Plano, TX 75024, USA <br />
                     </div>
-                    <a className="customLinkcont" href="info@taciti.com">
+                    <a className="customLinkcont" href="#info@taciti.com">
                       <div className="ch2cont">info@taciti.com</div>
                     </a>
                   </div>
@@ -205,7 +205,7 @@ export default function Contact() {
                       </Link>
                     </div>
                     <div>
-                      <Link href="info@taciti.com" className="customLinkcont ">
+                      <Link href="#info@taciti.com" className="customLinkcont ">
                         info@taciti.com
                       </Link>
                     </div>
@@ -220,7 +220,7 @@ export default function Contact() {
                       </Link>
                     </div>
                     <div>
-                      <Link href="info@taciti.com" className="customLinkcont">
+                      <Link href="#info@taciti.com" className="customLinkcont">
                         info@taciti.com
                       </Link>
                     </div>
