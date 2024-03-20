@@ -179,8 +179,12 @@ export default function Contact() {
               <div className="innerCard ">
                 <div className="row   container">
                   <div className="box addressBox   col-md-4    ">
-                    <div className="serTxtcon ">Our Offices</div>
-                    <div className="serTxtcon mt-3">Plano, TX, USA</div>
+                    <div className="serTxtcon ">
+                      <text className="serTxtcon ">Our Offices</text>
+                    </div>
+                    <div className="serTxtcon mt-3">
+                      <text className="serTxtcon ">Plano, TX, USA</text>
+                    </div>
                     <div className="customLinkcont mt-3 ">
                       Suite #204 <br />
                       6010 W Spring Creek Pkwy, <br />
@@ -191,7 +195,9 @@ export default function Contact() {
                     </a>
                   </div>
                   <div className="servicesBox  mt-5  col-md-4  ">
-                    <div className="serTxtcon">Pune, India</div>
+                    <div className="serTxtcon">
+                      <h1 className="serTxtcon ">Pune, India</h1>
+                    </div>
                     <div>
                       <Link href="#" className="customLinkcont">
                         C-607, Teerth Technospace, Begnaluru-Mumbai Highway,

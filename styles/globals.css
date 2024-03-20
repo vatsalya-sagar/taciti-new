@@ -344,28 +344,28 @@ body {
 .serTxtcon {
   font-size: 20px !important;
   color: #303030 !important;
-  font-family: "futuraptbold " !important;
+  font-family: "futuraptbold" !important;
 }
 
 .customLink {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 20px !important;
   text-decoration-line: none;
-  font-family: "futuraptMedium";
+  font-family: "futuraptMedium" !important;
 }
 
 .customLinkcont {
   color: #303030 !important;
-  font-size: 20px;
+  font-size: 20px !important;
   text-decoration-line: none;
-  font-family: "futuraptMedium";
+  font-family: "futuraptMedium" !important;
 }
 .ch2cont {
   color: #303030 !important;
-  font-size: 20px;
+  font-size: 20px !important;
 
   text-decoration-line: none;
-  font-family: "futuraptMedium";
+  font-family: "futuraptMedium" !important;
 }
 .ch2 {
   color: white !important;
