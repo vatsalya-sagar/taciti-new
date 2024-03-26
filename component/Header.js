@@ -60,6 +60,7 @@ export default function Header() {
         </div>
         <div className="LinkBox  ">
           <Link href="/about-us/">About Us</Link>
+
           <div className="pb-4 dropdown pt-4  ">
             <div className="dropdown ">
               <Link href="/our-services/">
@@ -79,6 +80,7 @@ export default function Header() {
               </div>
             </div>
           </div>
+
           <div className="pb-4 dropdown pt-4  ">
             <div className="dropdown">
               <Link href="/industries/">
@@ -95,7 +97,24 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <Link href="/case-studies/">Case Studies</Link>
+          {/* <Link href="/case-studies/">Case Studies</Link> */}
+
+          <div className="pb-4 dropdown pt-4  ">
+            <div className="dropdown ">
+              <Link href="/case-studies/">
+              Case Studies <RiArrowDropDownLine />
+              </Link>
+
+              <div class="dropdown-content">
+                <a href="/casestudy/services-erptransformation">Services Erptransformation</a>
+                <a href="/casestudy/case-study-category-strategy-advisory/">Case Study Category</a>
+                <a href="/casestudy/case-study-category-technology-services">Case Study Category Technology Services</a>
+              
+               
+              </div>
+            </div>
+          </div>
+
           <Link href="/contact-us/">Contact Us</Link>
         </div>
         <div className="drawerToggle">

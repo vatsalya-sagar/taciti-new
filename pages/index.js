@@ -34,7 +34,7 @@ export default function Home() {
             <div className="AboutUsBox">
               <h1 className="headTxt">About Us</h1>
               <h2 className="detailTxt">
-                We are specialize in Business <br /> & Technology Consulting.
+                We  specialize in Business <br /> & Technology Consulting
               </h2>
               <p className="para">
                 Founded in 2019 as DPCon Solutions by enterprise professionals
@@ -78,7 +78,7 @@ export default function Home() {
                       </h1>
                       <p className="parain">
                         A recent collaboration with a client from the
-                        environmental and life sciences industry involved and
+                        environmental and life sciences industry involved an
                         impactful "Order-to-Cash Assessment and Process
                         Improvement initiative"
                       </p>
@@ -110,7 +110,7 @@ export default function Home() {
                         alt=""
                       />
                       <h1 className="carHeadTxt">
-                        SAP S / 4HANA Led <br /> Digital Transformation
+                        SAP S/4HANA Led <br /> Digital Transformation
                       </h1>
                       <p className="parain">
                         The primary objectives are to streamline operations by
@@ -152,9 +152,9 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing Working Capital, An <br /> Order-to-Cash
-                            Transformation for a<br /> Leading Life Sciences
-                            Major.
+                            Optimizing working capital, an <br /> Order-to-Cash
+                            transformation for a<br /> leading life sciences
+                            major.
                           </p>
                           <a
                             href="/casestudy/case-study-category-strategy-advisory/"
@@ -280,7 +280,7 @@ export default function Home() {
             <div className="contentBox">
               <h1 className="incremanetalHeadTxt">
                 We are passionate about accelerated <br /> and incremental
-                improvements.
+                improvements
               </h1>
               <div className="borderROundedRec">
                 <div className="innerBox">

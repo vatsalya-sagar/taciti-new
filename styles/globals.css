@@ -347,7 +347,7 @@ body {
 }
 
 .serTxtcon {
-  font-size: 20px !important;
+  font-size: 25px !important;
   color: #303030 !important;
   font-family: "futuraptbold" !important;
 }
@@ -364,6 +364,7 @@ body {
   font-size: 20px !important;
   text-decoration-line: none;
   font-family: "futuraptMedium" !important;
+  font-weight: 500;
 }
 .ch2cont {
   color: #303030 !important;
@@ -1611,6 +1612,9 @@ body .pops {
   color: #fff !important;
   font-size: 20px;
   font-weight: 600;
+  margin: 0;
+  padding: 0;
+
 }
 
 .about-team-class {
@@ -1619,7 +1623,7 @@ body .pops {
 
 .about-team {
   position: relative;
-  min-height: 100%;
+  margin-top: 20px;
 }
 .about-team:hover {
   color: #013470;
@@ -1638,9 +1642,9 @@ body .pops {
   font-size: 20px;
   font-weight: 600;
 }
-.card-body-list {
+/* .card-body-list {
   margin: 10px;
-}
+} */
 
 .inline-name {
   position: absolute;
@@ -1728,4 +1732,9 @@ body .pops {
 
 .footerBg-2 strong{
   color: #212529;;
+}
+
+
+.footerBcontact .serTxtcon-2 {
+  padding-bottom: 40px;
 }

@@ -177,11 +177,12 @@ export default function Contact() {
           <div id="footer" className="footer">
             <div className="footerBcontact mt-5">
               <div className="innerCard ">
-                <div className="row   container">
-                  <div className="box addressBox   col-md-4    ">
-                    <div className="serTxtcon ">
-                      <text className="serTxtcon ">Our Offices</text>
+                <div className="container">
+                <div className="serTxtcon-2 text-center">
+                      <text className="contactheadfirst ">Our Offices</text>
                     </div>
+                <div className="row">
+                  <div className="box addressBox col-md-4 ">
                     <div className="serTxtcon mt-3">
                       <text className="serTxtcon ">Plano, TX, USA</text>
                     </div>
@@ -194,7 +195,7 @@ export default function Contact() {
                       <div className="ch2cont">info@taciti.com</div>
                     </a>
                   </div>
-                  <div className="servicesBox  mt-5  col-md-4  ">
+                  <div className="servicesBox  col-md-4  ">
                     <div className="serTxtcon">
                       <h1 className="serTxtcon ">Pune, India</h1>
                     </div>
@@ -211,7 +212,7 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div className="servicesBox  mt-5  col-md-4 ">
+                  <div className="servicesBox  col-md-4 ">
                     <div className="serTxtcon">Hyderabad, India</div>
                     <div>
                       <Link href="#" className="customLinkcont">
@@ -225,6 +226,7 @@ export default function Contact() {
                       </Link>
                     </div>
                   </div>
+                </div>
                 </div>
               </div>
             </div>
