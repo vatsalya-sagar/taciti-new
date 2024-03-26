@@ -68,15 +68,15 @@ export default function Header() {
               </Link>
 
               <div class="dropdown-content">
-                <a href="/business-consulting/">Strategy & Advisory</a>
-                <a href="/process-advisory/">ERP Led Transformations</a>
-                <a href="/business-transformation/">
+                <Link href="/business-consulting/">Strategy & Advisory</Link>
+                <Link href="/process-advisory/">ERP Led Transformations</Link>
+                <Link href="/business-transformation/">
                   Transformation Management <br></br>& Governance
-                </a>
-                <a href="/technology-services/">Technology Services</a>
-                <a href="/talent-management-transformation/">
+                </Link>
+                <Link href="/technology-services/">Technology Services</Link>
+                <Link href="/talent-management-transformation/">
                   Human Capital Management
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,13 +87,13 @@ export default function Header() {
                 Industries <RiArrowDropDownLine className="arrowiconsx" />
               </Link>
               <div class="dropdown-content">
-                <a href="/manufacturing-industries/">
+                <Link href="/manufacturing-industries/">
                   Manufacturing Industries
-                </a>
-                <a href="/life-sciences/">Life Sciences</a>
-                <a href="/consumer-packaged-goods/">Consumer Packaged Goods</a>
-                <a href="/hi-tech/">Hi-Tech</a>
-                <a href="/utility/">Utilities</a>
+                </Link>
+                <Link href="/life-sciences/">Life Sciences</Link>
+                <Link href="/consumer-packaged-goods/">Consumer Packaged Goods</Link>
+                <Link href="/hi-tech/">Hi-Tech</Link>
+                <Link href="/utility/">Utilities</Link>
               </div>
             </div>
           </div>
@@ -106,9 +106,9 @@ export default function Header() {
               </Link>
 
               <div class="dropdown-content">
-                <a href="/casestudy/services-erptransformation">ERP Transformation</a>
-                <a href="/casestudy/case-study-category-strategy-advisory/">Strategy & Advisory</a>
-                <a href="/casestudy/case-study-category-technology-services">Technology Services</a>
+                <Link href="/casestudy/services-erptransformation">ERP Transformation</Link>
+                <Link href="/casestudy/case-study-category-strategy-advisory/">Strategy & Advisory</Link>
+                <Link href="/casestudy/case-study-category-technology-services">Technology Services</Link>
               
                
               </div>
@@ -178,15 +178,15 @@ export default function Header() {
                 {/* Dropdown content */}
                 {isServicesOpen && (
                   <div className="innerDropdownContent">
-                    <a href="/business-consulting/">Strategy & Advisory</a>
-                    <a href="/process-advisory/">ERP Lead Transformation</a>
-                    <a href="/business-transformation/">
+                    <Link href="/business-consulting/">Strategy & Advisory</Link>
+                    <Link href="/process-advisory/">ERP Lead Transformation</Link>
+                    <Link href="/business-transformation/">
                       Transformation Management <br></br>& Governance
-                    </a>
-                    <a href="/technology-services/">Technology Services</a>
-                    <a href="/talent-management-transformation/">
+                    </Link>
+                    <Link href="/technology-services/">Technology Services</Link>
+                    <Link href="/talent-management-transformation/">
                       Human Capital Management
-                    </a>
+                    </Link>
                   </div>
                 )}
               </div>
@@ -206,15 +206,15 @@ export default function Header() {
                 {/* Dropdown content */}
                 {isServicesOpenInd && (
                   <div className="innerDropdownContent">
-                    <a href="/manufacturing-industries/">
+                    <Link href="/manufacturing-industries/">
                       Manufacturing Industries
-                    </a>
-                    <a href="/life-sciences/">Life Sciences</a>
-                    <a href="/consumer-packaged-goods/">
+                    </Link>
+                    <Link href="/life-sciences/">Life Sciences</Link>
+                    <Link href="/consumer-packaged-goods/">
                       Consumer Packaged Goods
-                    </a>
-                    <a href="/hi-tech/">Hi-Tech</a>
-                    <a href="/utility/">Utilities</a>
+                    </Link>
+                    <Link href="/hi-tech/">Hi-Tech</Link>
+                    <Link href="/utility/">Utilities</Link>
                   </div>
                 )}
               </div>
