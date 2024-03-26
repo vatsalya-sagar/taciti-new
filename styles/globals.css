@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 
   ::-webkit-scrollbar {
-    display: none;
+    display: block;
   }
 }
 
@@ -10,6 +10,100 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Medium", sans-serif;
   font-family: "Public Sans", sans-serif;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #174c93;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #174c93;
+}
+.section {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.inner-services img {
+  margin-bottom: 18px;
+}
+/* loader CSS */
+#nprogress {
+  pointer-events: none;
+}
+#nprogress .bar {
+  background: #174c93;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #174c93, 0 0 5px #174c93;
+  opacity: 1;
+  -webkit-transform: rotate(3deg) translate(0, -4px);
+  -ms-transform: rotate(3deg) translate(0, -4px);
+  transform: rotate(3deg) translate(0, -4px);
+}
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+#nprogress .spinner-icon {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+  border-top-color: #174c93;
+  border-left-color: #174c93;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+.nprogress-custom-parent #nprogress .bar,
+.nprogress-custom-parent #nprogress .spinner {
+  position: absolute;
+}
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Header Styles */
@@ -1738,3 +1832,7 @@ body .pops {
 .footerBcontact .serTxtcon-2 {
   padding-bottom: 40px;
 }
+
+
+/* ........... */
+

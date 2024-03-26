@@ -106,9 +106,9 @@ export default function Header() {
               </Link>
 
               <div class="dropdown-content">
-                <a href="/casestudy/services-erptransformation">Services Erptransformation</a>
-                <a href="/casestudy/case-study-category-strategy-advisory/">Case Study Category</a>
-                <a href="/casestudy/case-study-category-technology-services">Case Study Category Technology Services</a>
+                <a href="/casestudy/services-erptransformation">ERP Transformation</a>
+                <a href="/casestudy/case-study-category-strategy-advisory/">Strategy & Advisory</a>
+                <a href="/casestudy/case-study-category-technology-services">Technology Services</a>
               
                
               </div>

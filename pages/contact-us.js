@@ -183,8 +183,8 @@ export default function Contact() {
                     </div>
                 <div className="row">
                   <div className="box addressBox col-md-4 ">
-                    <div className="serTxtcon mt-3">
-                      <text className="serTxtcon ">Plano, TX, USA</text>
+                    <div className="serTxtcon">
+                      <h1 className="serTxtcon ">Plano, TX, USA</h1>
                     </div>
                     <div className="customLinkcont mt-3 ">
                       Suite #204 <br />
@@ -197,33 +197,33 @@ export default function Contact() {
                   </div>
                   <div className="servicesBox  col-md-4  ">
                     <div className="serTxtcon">
-                      <h1 className="serTxtcon ">Pune, India</h1>
+                      <h1 className="serTxtcon">Pune, India</h1>
                     </div>
                     <div>
-                      <Link href="#" className="customLinkcont">
+                      <div className="customLinkcont">
                         C-607, Teerth Technospace, Begnaluru-Mumbai Highway,
                         Baner, Pune – 411045, India.
-                      </Link>
+                      </div>
                     </div>
                     <div>
-                      <Link href="#info@taciti.com" className="customLinkcont ">
+                      <div className="customLinkcont ">
                         info@taciti.com
-                      </Link>
+                      </div>
                     </div>
                   </div>
 
                   <div className="servicesBox  col-md-4 ">
-                    <div className="serTxtcon">Hyderabad, India</div>
+                    <h1 className="serTxtcon">Hyderabad, India</h1>
                     <div>
-                      <Link href="#" className="customLinkcont">
+                      <div className="customLinkcont">
                         Trendz JR, 5B, Survey No:31-36, Vittal Rao
                         Nagar,Madhapur, Hyderabad-500081, India
-                      </Link>
+                      </div>
                     </div>
                     <div>
-                      <Link href="#info@taciti.com" className="customLinkcont">
+                      <div className="customLinkcont">
                         info@taciti.com
-                      </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
