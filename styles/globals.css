@@ -393,8 +393,8 @@ body {
   font-size: 22px;
   font-weight: 800;
   color: #ffffff;
-  padding: 0 90px; /* Add left and right padding */
-  box-sizing: border-box; /* Include padding in the width calculation */
+  /* padding: 0 90px;  */
+  box-sizing: border-box; 
 }
 .servicesBox p {
   overflow: hidden;

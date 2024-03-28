@@ -18,7 +18,7 @@ export default function Footer() {
                   <div className="ch2">info@taciti.com</div>
                 </a>
               </div>
-              <div className="servicesBox mt-2 col-md-3 ps-5">
+              <div className="servicesBox col-md-4 ">
                 <div className="serTxt">Services</div>
                 <div>
                   <Link href="/business-consulting/" className="customLink">
@@ -33,7 +33,7 @@ export default function Footer() {
                 <div>
                   {" "}
                   <Link href="/business-transformation/" className="customLink">
-                    Transformation Management <br></br>& Governance
+                    Transformation Management & Governance
                   </Link>
                 </div>
                 <div>
