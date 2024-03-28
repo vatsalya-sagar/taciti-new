@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="innerCard  ">
             <div className="container-fluid">
             <div className="row">
-              <div className="box addressBox col-md-3">
+              <div className="box addressBox col-md-3 ps-5">
                 <div className="serTxt">
                   Suite #204 <br />
                   6010 W Spring Creek Pkwy, <br />
