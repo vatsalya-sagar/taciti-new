@@ -7,6 +7,7 @@ export default function Footer() {
       <div id="footer" className="footer">
         <div className="footerBg">
           <div className="innerCard  ">
+            <div className="container-fluid">
             <div className="row">
               <div className="box addressBox col-md-4 ps-5">
                 <div className="serTxt">
@@ -92,6 +93,7 @@ export default function Footer() {
                   </Link>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
