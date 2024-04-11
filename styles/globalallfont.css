@@ -39,13 +39,14 @@ h1 {
 }
 
 h2 {
-  font-family: "futuraptbold" !important;
+  /* font-family: "futuraptbold" !important; */
   font-size: 37px !important;
   color: #013470 !important;
 }
 
 h3 {
-  font-family: "futuraptbold" !important;
+  /* font-family: "futuraptbold" !important; */
+  font-family: "Futura PT Bold", Sans-serif !important;
   font-size: 22px !important;
   color: #013470 !important;
   /* color: #0f7eed !important;*/
@@ -58,7 +59,8 @@ h5 {
 }
 
 .basicid {
-  font-family: "futuraptbold" !important;
+  /* font-family: "futuraptbold" !important; */
+  font-family: "Futura PT Bold", Sans-serif !important;
   font-size: 37px !important;
   color: #013470 !important;
 }
@@ -116,7 +118,8 @@ p {
   /* color: #0f7eed !important;*/
 }
 .humancapfont h2 {
-  font-family: "futuraptbold" !important;
+  /* font-family: "futuraptbold" !important; */
+  font-family: "Futura PT Bold", Sans-serif !important;
   font-size: 27px !important;
   color: #013470 !important;
   /* color: #0f7eed !important;*/
@@ -150,7 +153,8 @@ p {
 }
 
 .advisorysubtitle {
-  font-family: "futuraptbold" !important;
+  /* font-family: "futuraptbold" !important; */
+  font-family: "Futura PT Bold", Sans-serif !important;
   font-size: 33px !important;
   color: #013470 !important;
   /* color: #0f7eed !important;*/
