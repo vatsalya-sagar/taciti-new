@@ -1725,7 +1725,7 @@ body .pops {
 .description p {
   color: #fff !important;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px !important;
   font-weight: 400;
   margin: 0;
   padding: 0;
