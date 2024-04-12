@@ -6,8 +6,8 @@ export default function Footer() {
     <>
       <div id="footer" className="footer">
         <div className="footerBg">
-          <div className="innerCard  ">
-            <div className="container-fluid">
+          <div className="innerCard-new">
+            {/* <div className="container-fluid">
             <div className="row">
               <div className="box addressBox col-md-3 ps-5">
                 <div className="serTxt">
@@ -94,8 +94,48 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+            </div> */}
+
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-3">
+                  <img src="/images/logo_footer.png"  alt="" /> <br/>
+                   <div className="addres">Suite #204 <br/>6010 W Spring Creek Pkwy, Plano, TX 75024, USA</div>
+                  <p>info@taciti.com</p>
+                </div>
+                <div className="col-lg-3">
+                  <div className="footer-head">Services</div>
+                      
+                    <ul>
+                      <li><Link href='/business-consulting/'>Strategy & Advisory</Link></li>
+                      <li><Link href='/process-advisory/'>ERP Lead Transformation</Link></li>
+                      <li><Link href='/business-transformation/'>Transformation Management & Governance</Link></li>
+                      <li><Link href='/technology-services/'>Technology Services</Link></li>
+                      <li><Link href='/talent-management-transformation/'>Human Capital Management</Link></li>
+                    </ul>
+                  </div>
+                
+                <div className="col-lg-3">
+                <div className="footer-head">Industries</div>
+                <ul>
+                      <li><Link href='/manufacturing-industries/'>Manufacturing Industries</Link></li>
+                      <li><Link href='/life-sciences/'>Life Sciences</Link></li>
+                      <li><Link href='/consumer-packaged-goods/'>Consumer Packaged Goods</Link></li>
+                      <li><Link href='/hi-tech/'>Hi-Tech</Link></li>
+                      <li><Link href='/utility/'>Utilities</Link></li>
+                    </ul>
+                </div>
+                <div className="col-lg-3">
+                <div className="footer-head">Qulck Links</div>
+                <ul> 
+                  <li><Link href='/contact-us/'>Contact Us</Link></li>    
+                </ul>
+                </div>
+              </div>
             </div>
+           
           </div>
+          
         </div>
       </div>
     </>

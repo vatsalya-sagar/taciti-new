@@ -379,7 +379,7 @@ body {
   background: url("../public/images/footerbg.svg") no-repeat scroll;
   background-size: cover;
   /* background-position: center; */
-  padding-top: 280px;
+  padding-top: 200px;
   padding-bottom: 120px;
 }
 
@@ -1842,3 +1842,38 @@ body .pops {
   margin-top: -140px;
 }
 
+
+
+.innerCard-new .addres{
+  padding-top: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.innerCard-new p{
+  color: #fff !important;
+  padding-top: 20px
+}
+
+
+.footer-head{
+  color: #fff;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.innerCard-new ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.innerCard-new ul li {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.innerCard-new ul li :hover {
+padding-left: 2px;
+}
