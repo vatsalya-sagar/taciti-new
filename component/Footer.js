@@ -110,15 +110,15 @@ export default function Footer() {
                       <li><Link href='/business-consulting/'>Strategy & Advisory</Link></li>
                       <li><Link href='/process-advisory/'>ERP Lead Transformation</Link></li>
                       <li><Link href='/business-transformation/'>Transformation Management & Governance</Link></li>
-                      <li><Link href='/technology-services/'>Technology Services</Link></li>
                       <li><Link href='/talent-management-transformation/'>Human Capital Management</Link></li>
+                      <li><Link href='/technology-services/'>Technology Services</Link></li>
                     </ul>
                   </div>
                 
                 <div className="col-lg-3">
                 <div className="footer-head">Industries</div>
                 <ul>
-                      <li><Link href='/manufacturing-industries/'>Manufacturing Industries</Link></li>
+                      <li><Link href='/manufacturing-industries/'>Manufacturing</Link></li>
                       <li><Link href='/life-sciences/'>Life Sciences</Link></li>
                       <li><Link href='/consumer-packaged-goods/'>Consumer Packaged Goods</Link></li>
                       <li><Link href='/hi-tech/'>Hi-Tech</Link></li>
@@ -126,7 +126,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="col-lg-3">
-                <div className="footer-head">Qulck Links</div>
+                <div className="footer-head">Quick Links</div>
                 <ul> 
                   <li><Link href='/contact-us/'>Contact Us</Link></li>    
                 </ul>

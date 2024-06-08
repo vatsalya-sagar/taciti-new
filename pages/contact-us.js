@@ -6,7 +6,7 @@ export default function Contact() {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const options = [
-    "Manufacturing Industries",
+    "Manufacturing",
     "Life Sciences",
     "Consumer Packaged Goods",
     "Hi-Tech",
@@ -66,14 +66,14 @@ export default function Contact() {
             <div className="contacttextwidth ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Your name*"
+                placeholder="First Name*"
               />
             </div>
 
             <div className="contacttextwidth  ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Last name*"
+                placeholder="Last Name*"
               />
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Contact() {
             <div className=" contacttextwidth ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Your Email*"
+                placeholder="Email*"
                 type="email"
               />
             </div>
@@ -90,7 +90,7 @@ export default function Contact() {
             <div className="contacttextwidth  ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Your Number*"
+                placeholder="Number*"
               />
             </div>
           </div>
@@ -99,14 +99,14 @@ export default function Contact() {
             <div className="contacttextwidth ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Your Company Name*"
+                placeholder="Company Name*"
               />
             </div>
 
             <div className="contacttextwidth  ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Your Country*"
+                placeholder="Country*"
               />
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function Contact() {
             <div className="contacttextwidth  ">
               <div className="custom-dropdown">
                 <div className="dropdown-header" onClick={toggleDropdown}>
-                  {selectedOption || " Select Services"}
+                  {selectedOption || " Select Industries"}
                   {isOpen ? (
                     <MdArrowDropUp className="mdarrow" />
                   ) : (

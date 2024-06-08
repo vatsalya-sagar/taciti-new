@@ -342,7 +342,8 @@ export default function Home() {
               </div>
               <div className="col-md-6">
                 <div className="reconBox">
-                  <h1 className="headingReconTxt">Recognition</h1>
+                  {/* 8-6-24 */}
+                  <h1 className="headingReconTxt">Client Recognition</h1>
                   <p className="recogPara">
                     Lam Research acknowledges <br />
                     our expertise and significant <br />
@@ -359,7 +360,7 @@ export default function Home() {
               <div className="col-md-12 text-center techPartrSx">
                 <div className="TecBox">
                   <h1 className="kkk">
-                    <span>Our</span> Technology Partner
+                    <span>Our</span> Technology Partners
                   </h1>
                   <div className="belowBox">
                     <div className="textBox">
@@ -367,7 +368,7 @@ export default function Home() {
                       <h2>Silver partner</h2>
                     </div>
                     <div className="textBox">
-                      <h1 className="sap">Corner Stone</h1>
+                      <h1 className="sap">Cornerstone onDemand</h1>
                       <h2>Teaming Agreement</h2>
                     </div>
                   </div>

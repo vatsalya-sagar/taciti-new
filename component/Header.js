@@ -73,10 +73,10 @@ export default function Header() {
                 <Link href="/business-transformation/">
                   Transformation Management <br></br>& Governance
                 </Link>
-                <Link href="/technology-services/">Technology Services</Link>
                 <Link href="/talent-management-transformation/">
                   Human Capital Management
                 </Link>
+                <Link href="/technology-services/">Technology Services</Link>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Header() {
               </Link>
               <div class="dropdown-content">
                 <Link href="/manufacturing-industries/">
-                  Manufacturing Industries
+                  Manufacturing
                 </Link>
                 <Link href="/life-sciences/">Life Sciences</Link>
                 <Link href="/consumer-packaged-goods/">Consumer Packaged Goods</Link>
