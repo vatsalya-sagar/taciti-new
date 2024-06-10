@@ -1644,7 +1644,7 @@ textarea.input-blue-bottom-border {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 35vh;
+  height: 45vh;
 }
 .vision-heading {
   color: #013470;
@@ -1725,7 +1725,7 @@ body .pops {
 .description p {
   color: #fff !important;
   text-align: center;
-  font-size: 14px !important;
+  font-size: 12px !important;
   font-weight: 400;
   margin: 0;
   padding: 0;
