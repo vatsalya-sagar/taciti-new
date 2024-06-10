@@ -112,6 +112,7 @@ export default function Footer() {
                       <li><Link href='/business-transformation/'>Transformation Management & Governance</Link></li>
                       <li><Link href='/talent-management-transformation/'>Human Capital Management</Link></li>
                       <li><Link href='/technology-services/'>Technology Services</Link></li>
+                      <li><Link href='/cyber-security/'>Cyber Security</Link></li>
                     </ul>
                   </div>
                 
