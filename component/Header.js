@@ -120,7 +120,7 @@ export default function Header() {
         </div>
         <div className="drawerToggle">
           <Image
-            src="./images/bars.svg"
+            src="/images/bars.svg"
             height="25"
             width="25"
             alt=""
@@ -128,7 +128,7 @@ export default function Header() {
             onClick={toggleDrawer}
           />
 
-          <PiDotsThreeOutline className="searchbtn" onClick={toggleSearch} />
+          <PiDotsThreeOutline className="searchbtn d-none" onClick={toggleSearch} />
         </div>
         {isSearchVisible && (
           <div ref={searchInputRef} className="searchInputContainer">
@@ -142,7 +142,7 @@ export default function Header() {
           <div className="drawerContent">
             <div className="crossBtnRight">
               <Image
-                src="./images/tactiti.svg"
+                src="/images/tactiti.svg"
                 height="60"
                 width="100"
                 alt=""
@@ -150,7 +150,7 @@ export default function Header() {
                 onClick={toggleDrawer}
               />
               <Image
-                src="./images/cross.svg"
+                src="/images/cross.svg"
                 height="30"
                 width="30"
                 alt=""

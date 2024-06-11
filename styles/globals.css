@@ -349,6 +349,11 @@ body {
   .drawerToggle {
     display: block;
   }
+
+  .descripitioncustom {
+    text-align: center !important;
+  }
+ 
   /* .searchInputContainer {
     display: block;
   }
@@ -356,6 +361,30 @@ body {
   .inputd {
     display: block;
   } */
+  .block{
+    display: none;
+  }
+
+  .headhero{
+    text-align: center;
+  }
+
+  .mainLineImg .AboutUsBox .headTxt {
+    font-size: 28px !important;
+    line-height: 35px !important;
+    color: #0f7eed !important;
+    font-family: "Robotomdmedium";
+  }
+
+  .margin{
+    margin-left: 14px;
+    margin-bottom: 20px;
+  }
+
+  .padding{
+    margin-top: 30px;
+  }
+
 }
 @media screen and (min-width: 768px) {
   .drawer {
@@ -599,7 +628,7 @@ body {
     background-size: contain;
     /* background-position: bottom right; */
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     /* background-color: rgb(2, 52, 103); */
     background-color: rgb(2, 69, 137);
   }
@@ -633,10 +662,9 @@ body {
 }
 
 .mainLineImg .AboutUsBox .headTxt {
-  font-size: 31px !important;
+  font-size: 31px ;
   line-height: 35px !important;
   color: #0f7eed !important;
-
   font-family: "Robotomdmedium";
 }
 
@@ -694,11 +722,10 @@ body {
     margin-top: 30px;
   }
   .mainLineImg .AboutUsBox .detailTxt {
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 35px;
     color: rgba(1, 52, 112, 1);
     font-family: "futuraptbold";
-    word-spacing: 5px;
   }
 }
 
@@ -1014,7 +1041,6 @@ body {
 .TecBox .belowBox .textBox h1 {
   color: #4e5764 !important;
   font-size: 45px !important;
-
   font-family: "futuraptLight" !important;
   margin-bottom: 10px !important;
 }
@@ -1034,7 +1060,7 @@ body {
     font-size: 30px;
   }
   .bookBox .reconBox .recogPara {
-    font-size: 32px;
+    font-size: 32px !important;
     margin-bottom: 20px;
     font-family: "futuraptbold";
   }
@@ -1113,7 +1139,7 @@ body {
   }
 
   .TecBox .belowBox .textBox h1 {
-    font-size: 24px;
+    font-size: 32px !important;
 
     font-family: "futuraptLight";
   }
@@ -1393,8 +1419,13 @@ textarea.input-blue-bottom-border {
     font-size: 22px;
     color: #174c93;
     font-family: "futuraptbold";
-
     text-align: center;
+    line-height: 23px !important;
+    margin-bottom: 10px
+  }
+
+  .textBox1{
+    padding-top: 65% !important;
   }
 
   /* Styling for input fields */

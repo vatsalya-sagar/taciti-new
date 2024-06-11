@@ -12,16 +12,16 @@ export default function Home() {
       </Head>
       <div id="Home">
         <div className="landingBox">
-          <div className="textBox">
+          <div className="textBox textBox1">
             <h1 className="headhero">
               Empowering <br /> Digital <br /> Transformation
             </h1>
             <div className="descripitioncustom">
-              Our expertise lies in providing end-to-end digital <br />
-              transformation services for businesses. Our unbiased <br />
-              advisory approach helps our clients achieve growth <br />
-              and success in their industries. Our services include <br />
-              Strategy & Advisory , Process Reengineering & Optimization, <br />
+              Our expertise lies in providing end-to-end digital <br className="block"/>
+              transformation services for businesses. Our unbiased <br className="block" />
+              advisory approach helps our clients achieve growth <br className="block" />
+              and success in their industries. Our services include <br className="block" />
+              Strategy & Advisory , Process Reengineering & Optimization, <br className="block" />
               and Technology Implementation.
             </div>
           </div>
@@ -38,13 +38,13 @@ export default function Home() {
               </h2>
               <p className="para">
                 Founded in 2019 as DPCon Solutions by enterprise professionals
-                with over 25 years of experience, <br />
+                with over 25 years of experience, <br className="block"/>
                 we have recently undertaken a rebranding exercise and changed
-                the firm's name to Taciti Consulting. <br /> We offer unbiased
+                the firm's name to Taciti Consulting. <br className="block" /> We offer unbiased
                 advisory services and comprehensive end-to-end digital
                 transformation solutions.
-                <br /> We have worked with some of the biggest brands across the
-                globe through process and technology innovations, <br />
+                <br className="block" /> We have worked with some of the biggest brands across the
+                globe through process and technology innovations, <br className="block" />
                 helping them flourish as well as adding value to the internal
                 and external stakeholders.
               </p>
@@ -345,9 +345,9 @@ export default function Home() {
                   {/* 8-6-24 */}
                   <h1 className="headingReconTxt">Client Recognition</h1>
                   <p className="recogPara">
-                    Lam Research acknowledges <br />
-                    our expertise and significant <br />
-                    contribution to their digital <br />
+                    Lam Research acknowledges <br className="block"/>
+                    our expertise and significant <br className="block" />
+                    contribution to their digital <br className="block" />
                     transformation journey
                   </p>
                   <p className="liteTxt">
@@ -361,6 +361,24 @@ export default function Home() {
                 <div className="TecBox">
                   <h1 className="kkk">
                     <span>Our</span> Technology Partners
+                  </h1>
+                  <div className="belowBox">
+                    <div className="textBox">
+                      <h1 className="sap">SAP</h1>
+                      <h2>Silver partner</h2>
+                    </div>
+                    <div className="textBox">
+                      <h1 className="sap">Cornerstone onDemand</h1>
+                      <h2>Teaming Agreement</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-12 text-center techPartrSx">
+                <div className="TecBox">
+                  <h1 className="kkk">
+                    <span>Cyber</span> Security Partners
                   </h1>
                   <div className="belowBox">
                     <div className="textBox">

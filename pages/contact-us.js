@@ -182,47 +182,53 @@ export default function Contact() {
                       <text className="contactheadfirst ">Our Offices</text>
                     </div>
                 <div className="row">
-                  <div className="box addressBox col-md-4 ">
-                    <div className="serTxtcon">
-                      <h1 className="serTxtcon ">Plano, TX, USA</h1>
-                    </div>
-                    <div className="customLinkcont mt-3 ">
-                      Suite #204 <br />
-                      6010 W Spring Creek Pkwy, <br />
-                      Plano, TX 75024, USA <br />
-                    </div>
-                    <a className="customLinkcont" href="#info@taciti.com">
-                      <div className="ch2cont">info@taciti.com</div>
-                    </a>
-                  </div>
-                  <div className="servicesBox  col-md-4  ">
-                    <div className="serTxtcon">
-                      <h1 className="serTxtcon">Pune, India</h1>
-                    </div>
+                  <div className="box addressBox col-md-4 col-12 margin">
                     <div>
-                      <div className="customLinkcont">
-                        C-607, Teerth Technospace, Begnaluru-Mumbai Highway,
-                        Baner, Pune – 411045, India.
+                      <div className="serTxtcon">
+                        <h1 className="serTxtcon ">Plano, TX, USA</h1>
                       </div>
+                      <div className="customLinkcont mt-3 ">
+                        Suite #204 <br />
+                        6010 W Spring Creek Pkwy, <br />
+                        Plano, TX 75024, USA <br />
+                      </div>
+                      <a className="customLinkcont" href="#info@taciti.com">
+                        <div className="ch2cont">info@taciti.com</div>
+                      </a>
                     </div>
+                  </div>
+                  <div className="col-md-4 col-12 margin">
                     <div>
-                      <div className="customLinkcont ">
-                        info@taciti.com
+                      <div className="serTxtcon">
+                        <h1 className="serTxtcon">Pune, India</h1>
+                      </div>
+                      <div>
+                        <div className="customLinkcont">
+                          C-607, Teerth Technospace, Begnaluru-Mumbai Highway,
+                          Baner, Pune – 411045, India.
+                        </div>
+                      </div>
+                      <div>
+                        <div className="customLinkcont ">
+                          info@taciti.com
+                        </div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="servicesBox  col-md-4 ">
-                    <h1 className="serTxtcon">Hyderabad, India</h1>
-                    <div>
-                      <div className="customLinkcont">
-                        Trendz JR, 5B, Survey No:31-36, Vittal Rao
-                        Nagar,Madhapur, Hyderabad-500081, India
+                  <div className="col-md-4 col-12 margin">
+                    <div> 
+                      <h1 className="serTxtcon">Hyderabad, India</h1>
+                      <div>
+                        <div className="customLinkcont">
+                          Trendz JR, 5B, Survey No:31-36, Vittal Rao
+                          Nagar,Madhapur, Hyderabad-500081, India
+                        </div>
                       </div>
-                    </div>
-                    <div>
-                      <div className="customLinkcont">
-                        info@taciti.com
+                      <div>
+                        <div className="customLinkcont">
+                          info@taciti.com
+                        </div>
                       </div>
                     </div>
                   </div>
