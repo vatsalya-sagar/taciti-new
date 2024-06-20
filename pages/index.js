@@ -17,12 +17,12 @@ export default function Home() {
               Empowering <br /> Digital <br /> Transformation
             </h1>
             <div className="descripitioncustom">
-              Our expertise lies in providing end-to-end digital <br className="block"/>
-              transformation services for businesses. Our unbiased <br className="block" />
-              advisory approach helps our clients achieve growth <br className="block" />
-              and success in their industries. Our services include <br className="block" />
-              Strategy & Advisory , Process Reengineering & Optimization, <br className="block" />
-              and Technology Implementation.
+              Our expertise lies in providing end-to-end digital 
+              transformation services for businesses. Our unbiased 
+              advisory approach helps our clients achieve growth
+              and success in their industries. Our services include 
+              Strategy & Advisory , Process Reengineering & Optimization,
+              and Technology Implementation
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ export default function Home() {
             <div className="AboutUsBox">
               <h1 className="headTxt">About Us</h1>
               <h2 className="detailTxt">
-                We  specialize in Business <br /> & Technology Consulting
+                We  Specialize In Business <br /> & Technology Consulting
               </h2>
               <p className="para">
                 Founded in 2019 as DPCon Solutions by enterprise professionals
@@ -46,7 +46,7 @@ export default function Home() {
                 <br className="block" /> We have worked with some of the biggest brands across the
                 globe through process and technology innovations, <br className="block" />
                 helping them flourish as well as adding value to the internal
-                and external stakeholders.
+                and external stakeholders
               </p>
               <a href="/contact-us/">
                 <button className="ContactBtn">Contact Us</button>
@@ -98,7 +98,7 @@ export default function Home() {
                       <p className="parain">
                         We spearheaded a worldwide transformation of a Learning
                         Management System (LMS) for a prominent global
-                        technology leader.
+                        technology leader
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -117,7 +117,7 @@ export default function Home() {
                         minimizing complexity, fostering process harmonization
                         among various business units, and establishing
                         standardized procedures through a unified digital core
-                        built on SAP S/4HANA.
+                        built on SAP S/4HANA
                       </p>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export default function Home() {
             <div className="AboutUs">
               <div className="AboutUsBox">
                 <h1 className="headTxt">Case Studies</h1>
-                <h2 className="detailTxt2">Our Projects make Us Proud</h2>
+                <h2 className="detailTxt2">Our Projects Make Us Proud</h2>
                 <div className="container cont-sx">
                   <div className="row">
                     <div className="col-md-4">
@@ -152,9 +152,9 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing working capital, an <br /> Order-to-Cash
+                            Optimizing working capital, an <br /> Order-To-Cash
                             transformation for a<br /> leading life sciences
-                            major.
+                            major
                           </p>
                           <a
                             href="/casestudy/case-study-category-strategy-advisory/"
@@ -196,7 +196,7 @@ export default function Home() {
                           <p className="casePara">
                             A large scale SAP S/4HANA-led <br />
                             digital transformation for a <br />
-                            US-based manufacturer.
+                            US-based manufacturer
                           </p>
                           <a
                             href="/casestudy/case-study-category-erp-transformation/"
@@ -238,7 +238,7 @@ export default function Home() {
                           <p className="casePara">
                             Empowering services with <br />
                             No-Code/Low-Code (Microsoft Power Platform) for a
-                            manufacturing leader.
+                            manufacturing leader
                             <br />
                           </p>
                           <a
@@ -353,7 +353,7 @@ export default function Home() {
                   <p className="liteTxt">
                     With our recent rebranding exercise, we have changed our{" "}
                     <br />
-                    Company name from DPcon Solutions to Taciti Consulting.
+                    company name from DPCon Solutions to Taciti Consulting
                   </p>
                 </div>
               </div>
@@ -365,7 +365,7 @@ export default function Home() {
                   <div className="belowBox">
                     <div className="textBox">
                       <h1 className="sap">SAP</h1>
-                      <h2>Silver partner</h2>
+                      <h2>Silver Partner</h2>
                     </div>
                     <div className="textBox">
                       <h1 className="sap">Cornerstone onDemand</h1>
@@ -383,7 +383,7 @@ export default function Home() {
                   <div className="belowBox">
                     <div className="textBox">
                       <h1 className="sap">SAP</h1>
-                      <h2>Silver partner</h2>
+                      <h2>Silver Partner</h2>
                     </div>
                     <div className="textBox">
                       <h1 className="sap">Cornerstone onDemand</h1>

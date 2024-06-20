@@ -352,8 +352,9 @@ body {
 
   .descripitioncustom {
     text-align: center !important;
+    width: 350px !important;
   }
- 
+  
   /* .searchInputContainer {
     display: block;
   }
@@ -397,6 +398,10 @@ body {
   .inputd {
     display: none;
   }
+}
+
+.descripitioncustom{
+  width: 700px;
 }
 
 /* Footer styles */
@@ -533,7 +538,7 @@ body {
 
 .landingBox .textBox {
   position: absolute !important;
-  margin: 130px 130px;
+  margin: 60px 130px;
 }
 
 .landingBox .textBox h1 {
@@ -662,9 +667,10 @@ body {
 }
 
 .mainLineImg .AboutUsBox .headTxt {
-  font-size: 31px ;
+  font-size: 31px !important;
   line-height: 35px !important;
   color: #0f7eed !important;
+  font-weight: 600 !important;
   font-family: "Robotomdmedium";
 }
 
@@ -1146,8 +1152,8 @@ body {
 }
 /* Contact */
 .contactbg {
-  background: url("../public/images/contactus.png") no-repeat;
-  height: 50vw;
+  background: url("../public/images/Contact.jpg") no-repeat;
+  height: 34vw;
   width: 100vw;
   background-size: contain;
   background-position: top;
@@ -1831,9 +1837,13 @@ body .pops {
   opacity: 0.5;
 }
 
+.modal-body::-webkit-scrollbar{
+  width: 5px;
+}
 .modal-body {
-  max-height: 700px; /* Adjust the maximum height as needed */
+  max-height: 550px; /* Adjust the maximum height as needed */
   overflow-y: auto; /* Enable vertical scrolling */
+  border-radius: 20px;
 }
 @media (max-width: 768px) {
   .popup {

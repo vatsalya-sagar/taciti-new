@@ -76,9 +76,9 @@ export default function AboutUs({ userData ,pageData }) {
               </div>
             ))}
             <Modal className="" show={isOpen} onHide={closePopup}>
-              <div className="modal-background "></div>
-              <div className="popupContainer ">
-                <div className="popup modal-body mt-5">
+              <div className="modal-background"></div>
+              <div className="popupContainer">
+                <div className="popup modal-body">
                   <div className="closeButton" onClick={closePopup}>
                     close
                   </div>
@@ -94,6 +94,7 @@ export default function AboutUs({ userData ,pageData }) {
 
                       <div
                         className="content-design"
+                        style={{color:"#4e5764", fontSize:"18px", fontFamily:"Roboto-light"}}
                         dangerouslySetInnerHTML={{
                           __html: userTeamData.content,
                         }}
