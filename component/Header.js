@@ -188,6 +188,9 @@ export default function Header() {
                     <Link href="/talent-management-transformation/">
                       Human Capital Management
                     </Link>
+                    <Link href="/cyber-security/">
+                      Cyber Security
+                    </Link>
                   </div>
                 )}
               </div>
