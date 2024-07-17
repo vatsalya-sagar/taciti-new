@@ -610,6 +610,10 @@ body {
   }
 }
 @media (max-width: 480px) {
+.landingBox {
+  display: flex;
+  justify-content: center;
+}
   .landingBox .textBox h1 {
     color: #fff !important;
     font-size: 35px !important;
