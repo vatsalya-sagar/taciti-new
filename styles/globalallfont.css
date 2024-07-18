@@ -162,7 +162,7 @@ p {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .Alltabs p {
     font-size: 15px !important;
