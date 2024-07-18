@@ -70,6 +70,25 @@ body {
   top: 15px;
   right: 15px;
 }
+#str{
+	scroll-margin-top: 145px; 
+}
+#erp{
+  scroll-margin-top: 145px; 
+}
+#tra{
+  scroll-margin-top: 145px;
+}
+#tec{
+  scroll-margin-top: 145px;
+}
+#hum{
+  scroll-margin-top: 145px;
+}
+#cbs{
+  scroll-margin-top: 140px;
+
+}
 #nprogress .spinner-icon {
   width: 30px;
   height: 30px;
