@@ -101,7 +101,7 @@ export default function Footer() {
                 <div className="col-lg-3">
                   <img src="/images/logo_footer.png"  alt="" /> <br/>
                    <div className="addres">Suite #204 <br/>6010 W Spring Creek Pkwy, Plano, TX 75024, USA</div>
-                  <p>info@taciti.com</p>
+                  <p><a href="mailto:info@taciti.com" style={{textDecoration:"none", color: "#fff !important"}}>info@taciti.com</a></p>
                 </div>
                 <div className="col-lg-3">
                   <div className="footer-head">Services</div>

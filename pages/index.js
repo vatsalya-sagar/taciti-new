@@ -21,7 +21,7 @@ export default function Home() {
               transformation services for businesses. Our unbiased 
               advisory approach helps our clients achieve growth
               and success in their industries. Our services include 
-              Strategy & Advisory , Process Reengineering & Optimization,
+              Strategy & Advisory, Process Re-engineering & Optimization
               and Technology Implementation
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
                 <br className="block" /> We have worked with some of the biggest brands across the
                 globe through process and technology innovations, <br className="block" />
                 helping them flourish as well as adding value to the internal
-                and external stakeholders
+                and external stakeholders.
               </p>
               <a href="/contact-us/">
                 <button className="ContactBtn">Contact Us</button>
@@ -115,7 +115,7 @@ export default function Home() {
                       <p className="parain">
                         The primary objectives are to streamline operations by
                         minimizing complexity, fostering process harmonization
-                        among various business units, and establishing
+                        among various business units and establishing
                         standardized procedures through a unified digital core
                         built on SAP S/4HANA
                       </p>
@@ -152,7 +152,7 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing working capital, an <br /> Order-To-Cash
+                            Optimizing working capital, An <br /> Order-To-Cash
                             transformation for a<br /> leading life sciences
                             major
                           </p>

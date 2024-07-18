@@ -538,7 +538,8 @@ body {
 
 .landingBox .textBox {
   position: absolute !important;
-  margin: 60px 130px;
+  /* margin: 60px 130px; */
+  margin: 10% 10%;
 }
 
 .landingBox .textBox h1 {
@@ -666,7 +667,7 @@ body {
   justify-content: center;
 }
 .mainLineImg .AboutUsBox {
-  margin-top: 60px;
+  margin-top: 30px;
   text-align: center;
 }
 
