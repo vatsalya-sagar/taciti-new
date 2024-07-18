@@ -80,7 +80,7 @@ export default function AboutUs({ userData ,pageData }) {
               <div className="popupContainer">
                 <div className="popup modal-body">
                   <div className="closeButton" onClick={closePopup}>
-                    close
+                    Close
                   </div>
                   <div className="teamCard   ">
                     <div className="head">
