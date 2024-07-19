@@ -12,9 +12,6 @@ body {
   font-family: "Public Sans", sans-serif;
 }
 
-
-
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -433,7 +430,7 @@ body {
   background-size: cover;
   /* background-position: center; */
   padding-top: 200px;
-  padding-bottom: 120px;
+  padding-bottom: 30px;
 }
 
 .footerBcontact {
@@ -495,7 +492,8 @@ body {
 
 .serTxtcon {
   font-size: 25px !important;
-  color: #303030 !important;
+  color: #4e5764 !important;
+  /* color: #303030 !important; */
   font-family: "futuraptbold" !important;
 }
 
@@ -507,7 +505,8 @@ body {
 }
 
 .customLinkcont {
-  color: #303030 !important;
+  /* color: #303030 !important; */
+  color: #4e5764 !important;
   font-size: 20px !important;
   text-decoration-line: none;
   font-family: "futuraptMedium" !important;
@@ -708,7 +707,7 @@ body {
 
 .mainLineImg .AboutUsBox .para {
   font-size: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   color: #4e5764;
   font-family: "Roboto-Light";
 }
@@ -835,7 +834,7 @@ body {
   padding: 20px;
   background-color: #fff;
   border: 0.5px solid rgb(231, 222, 222);
-  height: 250px;
+  height: 200px;
 }
 
 .cardInCase .cardbody .caseheadTxt {
@@ -885,7 +884,7 @@ body {
 }
 @media (max-width: 600px) {
   .cardInCase .cardbody {
-    height: 270px;
+    height: 220px;
   }
 }
 
@@ -969,7 +968,8 @@ body {
 
 @media (max-width: 768px) {
   .xaxisSlide {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
+    height: 80vh;
   }
 
   .xaxisSlide .borderROundedRec {
@@ -1904,7 +1904,7 @@ body .pops {
 
 
 .bookBox{
-  margin-top: -140px;
+  margin-top: -10px;
 }
 
 

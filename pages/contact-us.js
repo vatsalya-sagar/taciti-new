@@ -192,7 +192,7 @@ export default function Contact() {
                         6010 W Spring Creek Pkwy, <br />
                         Plano, TX 75024, USA <br />
                       </div>
-                      <a className="customLinkcont" href="#info@taciti.com">
+                      <a className="customLinkcont" href="mailto:info@taciti.com">
                         <div className="ch2cont">info@taciti.com</div>
                       </a>
                     </div>
@@ -209,9 +209,9 @@ export default function Contact() {
                         </div>
                       </div>
                       <div>
-                        <div className="customLinkcont ">
+                        <a className="customLinkcont " href="mailto:info@taciti.com">
                           info@taciti.com
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -226,9 +226,9 @@ export default function Contact() {
                         </div>
                       </div>
                       <div>
-                        <div className="customLinkcont">
+                        <a className="customLinkcont" href="mailto:info@taciti.com">
                           info@taciti.com
-                        </div>
+                        </a>
                       </div>
                     </div>
                   </div>
