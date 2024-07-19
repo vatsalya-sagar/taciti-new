@@ -84,7 +84,18 @@ body {
 }
 #cbs{
   scroll-margin-top: 140px;
-
+}
+#e{
+  scroll-margin-top: 140px;
+}
+#s{
+  scroll-margin-top: 140px;
+}
+#t{
+  scroll-margin-top: 140px;
+}
+#all{
+  scroll-margin-top: 140px;
 }
 #nprogress .spinner-icon {
   width: 30px;
