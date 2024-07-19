@@ -131,7 +131,7 @@ export default function Footer() {
                 <ul> 
                   <li><Link href='/contact-us/'>Contact Us</Link></li>    
                 </ul>
-                <div className="footer-head">Quick Links</div>
+                <div className="footer-head">Follow us</div>
                 <ul>
                   <li style={{listStyle:"none"}}>
                     <div style={{display:"flex", justifyContent:"space-between", width:"50%"}}>
