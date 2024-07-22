@@ -1933,7 +1933,14 @@ body .pops {
 
 .footer-head{
   color: #fff;
-  padding-bottom: 30px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-head2{
+  color: #fff;
+  padding-bottom: 10px;
   padding-left: 20px;
   font-size: 20px;
   font-weight: 600;

@@ -165,7 +165,7 @@ export default function Contact() {
               <textarea
                 className="col-12 input-blue-bottom-borderone"
                 placeholder="Please describe what you need"
-                style={{ height: "170px", resize: "vertical" }}
+                style={{ resize: "vertical" }}
                 // Adjust height and add resizing
               />
             </div>
