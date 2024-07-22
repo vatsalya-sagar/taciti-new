@@ -123,7 +123,7 @@ export default function Home() {
                   </div>
                 </div>
                 <a href="/case-studies/">
-                  <button className="ContactBtn">Show all</button>
+                  <button className="ContactBtn">Show All</button>
                 </a>
               </div>
             </div>
@@ -267,7 +267,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <button className="ContactBtn">Show all</button>
+                <button className="ContactBtn">Show All</button>
               </div>
             </div>
           </div>
