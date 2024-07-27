@@ -14,7 +14,7 @@ export default function Home() {
         <div className="landingBox">
           <div className="textBox textBox1">
             <h1 className="headhero">
-              Empowering <br /> Digital <br /> Transformation
+              Empowering <br /> Digital <br /> Transformations
             </h1>
             <div className="descripitioncustom">
               Our expertise lies in providing end-to-end digital 
@@ -74,7 +74,7 @@ export default function Home() {
                         alt=""
                       />
                       <h1 className="carHeadTxt">
-                        Order-to-order <br /> Transformation
+                        Order-to-cash <br /> Transformation
                       </h1>
                       <p className="parain">
                         A recent collaboration with a client from the
@@ -122,9 +122,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <a href="/case-studies/">
+                {/* <a href="/case-studies/">
                   <button className="ContactBtn">Show All</button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function Home() {
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
-                              View Case Study
+                              Relevant Case Studies
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="20"
@@ -203,7 +203,7 @@ export default function Home() {
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
-                              View Case Study
+                              Relevant Case Studies
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="20"
@@ -236,9 +236,10 @@ export default function Home() {
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Technology Services</h1>
                           <p className="casePara">
-                            Empowering services with <br />
+                          Empowering Innovation with <br/> No-Code/Low-Code (MS Power Platform) for a Manufacturing Leader
+                            {/* Empowering services with <br />
                             No-Code/Low-Code (Microsoft Power Platform) for a
-                            manufacturing leader
+                            manufacturing leader */}
                             <br />
                           </p>
                           <a
@@ -246,7 +247,7 @@ export default function Home() {
                             style={{ textDecoration: "none" }}
                           >
                             <h2 className="caseStudy">
-                              View Case Study
+                              Relevant Case Studies
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="20"

@@ -29,8 +29,9 @@ export default function Contact() {
     "Strategy & Advisory",
     "ERP Led Transformations",
     "Transformation Management & Governance",
-    "Technology Services",
     "Human Capital Management",
+    "Technology Services",
+    "Cyber Security",
     "Other",
   ];
 
@@ -90,7 +91,7 @@ export default function Contact() {
             <div className="contacttextwidth  ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Number*"
+                placeholder="Contact No.*"
               />
             </div>
           </div>
@@ -164,7 +165,7 @@ export default function Contact() {
             <div className="contacttextwidthdes ">
               <textarea
                 className="col-12 input-blue-bottom-borderone"
-                placeholder="Please describe what you need"
+                placeholder="Please describe your requirements in brief"
                 style={{ resize: "vertical" }}
                 // Adjust height and add resizing
               />
