@@ -17,12 +17,20 @@ export default function Home() {
               Empowering <br /> Digital <br /> Transformations
             </h1>
             <div className="descripitioncustom">
-              Our expertise lies in providing end-to-end digital 
+              {/* Our expertise lies in providing end-to-end digital 
               transformation services for businesses. Our unbiased 
               advisory approach helps our clients achieve growth
               and success in their industries. Our services include 
               Strategy & Advisory, Process Re-engineering & Optimization
-              and Technology Implementation
+              and Technology Implementation */}
+              Our expertise lies in providing end-to-end
+digital transformation services for
+businesses. Our unbiased advisory
+approach helps our clients grow and
+succeed in their industries. Our services
+include Strategy and Advisory, Process
+Re-engineering and Optimization and
+Technology Implementation
             </div>
           </div>
         </div>
