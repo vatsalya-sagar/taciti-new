@@ -82,13 +82,13 @@ Technology Implementation
                         alt=""
                       />
                       <h1 className="carHeadTxt">
-                        Order-to-cash <br /> Transformation
+                        Order-to-Order <br /> Transformation
                       </h1>
                       <p className="parain">
                         A recent collaboration with a client from the
                         environmental and life sciences industry involved an
                         impactful "Order-to-Cash Assessment and Process
-                        Improvement initiative"
+                        Improvement Initiative"
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -106,7 +106,7 @@ Technology Implementation
                       <p className="parain">
                         We spearheaded a worldwide transformation of a Learning
                         Management System (LMS) for a prominent global
-                        technology leader
+                        technology leader.
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -123,9 +123,9 @@ Technology Implementation
                       <p className="parain">
                         The primary objectives are to streamline operations by
                         minimizing complexity, fostering process harmonization
-                        among various business units and establishing
+                        among various business units, and establishing
                         standardized procedures through a unified digital core
-                        built on SAP S/4HANA
+                        built on SAP S/4HANA.
                       </p>
                     </div>
                   </div>
