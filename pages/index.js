@@ -82,7 +82,7 @@ Technology Implementation
                         alt=""
                       />
                       <h1 className="carHeadTxt">
-                        Order-to-Order <br /> Transformation
+                        Order-to-cash <br /> Transformation
                       </h1>
                       <p className="parain">
                         A recent collaboration with a client from the
