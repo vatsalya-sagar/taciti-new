@@ -91,7 +91,7 @@ export default function Contact() {
             <div className="contacttextwidth  ">
               <input
                 className="contactheadsec col-12 input-blue-bottom-border"
-                placeholder="Contact No.*"
+                placeholder="Phone No.*"
               />
             </div>
           </div>

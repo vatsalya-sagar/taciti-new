@@ -30,7 +30,7 @@ approach helps our clients grow and
 succeed in their industries. Our services
 include Strategy and Advisory, Process
 Re-engineering and Optimization and
-Technology Implementation
+Technology Implementations.
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ Technology Implementation
               <div className="AboutUsBox">
                 <h1 className="headTxt">Recent Client Engagements</h1>
                 <h2 className="detailTxt2">
-                  End-to-End Digital Transformation Service
+                  End-to-End Digital Transformation Services
                 </h2>
                 <div className="container cont-sx mb-3">
                   <div className="row">
@@ -82,13 +82,13 @@ Technology Implementation
                         alt=""
                       />
                       <h1 className="carHeadTxt">
-                        Order-to-cash <br /> Transformation
+                        Order-To-Cash <br /> Transformation
                       </h1>
                       <p className="parain">
                         A recent collaboration with a client from the
                         environmental and life sciences industry involved an
                         impactful "Order-to-Cash Assessment and Process
-                        Improvement Initiative"
+                        Improvement Initiative".
                       </p>
                     </div>
                     <div className="col-md-4">
@@ -121,11 +121,7 @@ Technology Implementation
                         SAP S/4HANA Led <br /> Digital Transformation
                       </h1>
                       <p className="parain">
-                        The primary objectives are to streamline operations by
-                        minimizing complexity, fostering process harmonization
-                        among various business units, and establishing
-                        standardized procedures through a unified digital core
-                        built on SAP S/4HANA.
+                      We have been selected as a strategic ERP transformation partner, we're streamlining global operations with SAP S/4HANA for a global manufacturer.
                       </p>
                     </div>
                   </div>
@@ -160,7 +156,7 @@ Technology Implementation
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Strategy & Advisory</h1>
                           <p className="casePara">
-                            Optimizing working capital, An <br /> Order-To-Cash
+                            Optimizing working capital, an <br /> Order-To-Cash
                             transformation for a<br /> leading life sciences
                             major
                           </p>
@@ -244,7 +240,7 @@ Technology Implementation
                         <div className="cardbody">
                           <h1 className="caseheadTxt">Technology Services</h1>
                           <p className="casePara">
-                          Empowering Innovation with <br/> No-Code/Low-Code (MS Power Platform) for a Manufacturing Leader
+                          Empowering innovation with <br/> No-Code/Low-Code (MS Power Platform) for a manufacturing leader
                             {/* Empowering services with <br />
                             No-Code/Low-Code (Microsoft Power Platform) for a
                             manufacturing leader */}
@@ -362,7 +358,7 @@ Technology Implementation
                   <p className="liteTxt">
                     With our recent rebranding exercise, we have changed our{" "}
                     <br />
-                    company name from DPCon Solutions to Taciti Consulting
+                    company name from DPCon Solutions to Taciti Consulting.
                   </p>
                 </div>
               </div>
