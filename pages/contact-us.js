@@ -3,9 +3,13 @@ import React, { useEffect, useRef, useState } from "react";
 import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 
 export default function Contact() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const options = [
+
+  const [isOpenIndustries, setIsOpenIndustries] = useState(false);
+  const [selectedIndustry, setSelectedIndustry] = useState(null);
+  const [isOpenServices, setIsOpenServices] = useState(false);
+  const [selectedService, setSelectedService] = useState(null);
+
+  const industries = [
     "Manufacturing",
     "Life Sciences",
     "Consumer Packaged Goods",
@@ -14,18 +18,7 @@ export default function Contact() {
     "Other",
   ];
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const handleOptionClick = (option) => {
-    setSelectedOption(option);
-    setIsOpen(false);
-  };
-
-  const [isOpend, setIsOpend] = useState(false);
-  const [selectedOptiond, setSelectedOptiond] = useState(null);
-  const optionsd = [
+  const services = [
     "Strategy & Advisory",
     "ERP Led Transformations",
     "Transformation Management & Governance",
@@ -35,14 +28,42 @@ export default function Contact() {
     "Other",
   ];
 
-  const toggleDropdownd = () => {
-    setIsOpend(!isOpend);
+  const industriesRef = useRef(null);
+  const servicesRef = useRef(null);
+
+  const toggleIndustriesDropdown = () => {
+    setIsOpenIndustries(!isOpenIndustries);
   };
 
-  const handleOptionClickd = (optiond) => {
-    setSelectedOptiond(optiond);
-    setIsOpend(false);
+  const toggleServicesDropdown = () => {
+    setIsOpenServices(!isOpenServices);
   };
+
+  const handleIndustryClick = (industry) => {
+    setSelectedIndustry(industry);
+    setIsOpenIndustries(false);
+  };
+
+  const handleServiceClick = (service) => {
+    setSelectedService(service);
+    setIsOpenServices(false);
+  };
+
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (isOpenIndustries && !industriesRef.current.contains(event.target)) {
+        setIsOpenIndustries(false);
+      }
+      if (isOpenServices && !servicesRef.current.contains(event.target)) {
+        setIsOpenServices(false);
+      }
+    };
+    document.addEventListener("click", handleOutsideClick);
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, [isOpenIndustries, isOpenServices]);
+
   return (
     <>
       <div id="contacthffkui">
@@ -112,25 +133,25 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="contacttextc mt-4  ">
-            <div className="contacttextwidth ">
-              <div className="custom-dropdown">
-                <div className="dropdown-header" onClick={toggleDropdownd}>
-                  {selectedOptiond || " Select Services"}
-                  {isOpend ? (
+          <div className="contacttextc mt-4">
+            <div className="contacttextwidth">
+              <div className="custom-dropdown" ref={servicesRef}>
+                <div className="dropdown-header" onClick={toggleServicesDropdown}>
+                  {selectedService || "Select Services"}
+                  {isOpenServices ? (
                     <MdArrowDropUp className="mdarrow" />
                   ) : (
                     <MdArrowDropDown className="mdarrow" />
                   )}
                 </div>
-                {isOpend && (
+                {isOpenServices && (
                   <ul className="dropdown-options">
-                    {optionsd.map((optiond, index) => (
+                    {services.map((service, index) => (
                       <li
                         key={index}
-                        onClick={() => handleOptionClickd(optiond)}
+                        onClick={() => handleServiceClick(service)}
                       >
-                        {optiond}
+                        {service}
                       </li>
                     ))}
                   </ul>
@@ -138,21 +159,24 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="contacttextwidth  ">
-              <div className="custom-dropdown">
-                <div className="dropdown-header" onClick={toggleDropdown}>
-                  {selectedOption || " Select Industries"}
-                  {isOpen ? (
+            <div className="contacttextwidth">
+              <div className="custom-dropdown" ref={industriesRef}>
+                <div className="dropdown-header" onClick={toggleIndustriesDropdown}>
+                  {selectedIndustry || "Select Industries"}
+                  {isOpenIndustries ? (
                     <MdArrowDropUp className="mdarrow" />
                   ) : (
                     <MdArrowDropDown className="mdarrow" />
                   )}
                 </div>
-                {isOpen && (
+                {isOpenIndustries && (
                   <ul className="dropdown-options">
-                    {options.map((option, index) => (
-                      <li key={index} onClick={() => handleOptionClick(option)}>
-                        {option}
+                    {industries.map((industry, index) => (
+                      <li
+                        key={index}
+                        onClick={() => handleIndustryClick(industry)}
+                      >
+                        {industry}
                       </li>
                     ))}
                   </ul>
