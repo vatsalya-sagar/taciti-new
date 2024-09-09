@@ -369,7 +369,12 @@ Technology Implementations.
                   </h1>
                   <div className="belowBox">
                     <div className="textBox">
-                      <h1 className="sap">SAP</h1>
+                      {/* <h1 className="sap">SAP</h1> */}
+                      <img 
+                      src="/images/SAP_Silver_Partner_R.png"
+                      alt=""
+                      width='200'
+                      />
                       <h2>Silver Partner</h2>
                     </div>
                     <div className="textBox">
@@ -387,7 +392,12 @@ Technology Implementations.
                   </h1>
                   <div className="belowBox">
                     <div className="textBox">
-                      <h1 className="sap">SecurityBridge</h1>
+                      {/* <h1 className="sap">SecurityBridge</h1> */}
+                      <img 
+                      src="/images/SecurityBridge-logo-tm-grey.png"
+                      alt=""
+                      width='200'
+                      />
                       <h2>Silver Partner</h2>
                     </div>
                     {/* <div className="textBox">
