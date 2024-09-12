@@ -377,10 +377,10 @@ Technology Implementations.
                       />
                       <h2>Silver Partner</h2>
                     </div>
-                    <div className="textBox">
+                    {/* <div className="textBox">
                       <h1 className="sap">Cornerstone onDemand</h1>
                       <h2>Teaming Agreement</h2>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
