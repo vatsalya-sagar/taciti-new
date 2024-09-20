@@ -10,16 +10,7 @@ export default function AllPages({ AllsinglePageList }) {
     return (
       <>
         <Head>
-          <link
-            rel="stylesheet"
-            href="https://taciti.coinage.host/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0"
-            media="all"
-          />
-          <link
-            rel="stylesheet"
-            href="https://taciti.coinage.host/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.27.0"
-            media="all"
-          />
+          
 
           <link
             rel="stylesheet"
