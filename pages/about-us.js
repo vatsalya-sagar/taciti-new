@@ -26,7 +26,7 @@ export default function AboutUs({ userData ,pageData }) {
     <Head>
     <link
             rel="stylesheet"
-            href={`https://taciti.coinage.host/wp-content/uploads/elementor/css/post-${pageData.pageId}.css`}
+            href={`https://demo-wp-app2-aqhegvdqe2e6e9fq.southindia-01.azurewebsites.net/wp-content/uploads/elementor/css/post-${pageData?.pageId}.css`}
             media="all"
           />
     </Head>
@@ -51,24 +51,24 @@ export default function AboutUs({ userData ,pageData }) {
            
 
             <div className="space5"></div>
-            {userData.map((item, index) => (
+            {userData?.map((item, index) => (
               <div
                 className="col-lg-3 cusor"
-                key={item.id}
-                onClick={() => openPopup(item.databaseId)}
+                key={item?.id}
+                onClick={() => openPopup(item?.databaseId)}
               >
                 <div className="card-body-list">
                   <div
                     className="about-team"
                     style={{
-                      backgroundImage: `url(${item.featuredImage.node.guid})`,
+                      backgroundImage: `url(${item?.featuredImage?.node?.guid})`,
                     }}
                   >
                     <div className="inline-name openButton">
-                      <h6 className="text-center">{item.title}</h6>
+                      <h6 className="text-center">{item?.title}</h6>
                       <div
                         className="description"
-                        dangerouslySetInnerHTML={{ __html: item.excerpt }}
+                        dangerouslySetInnerHTML={{ __html: item?.excerpt }}
                       ></div>
                     </div>
                   </div>
